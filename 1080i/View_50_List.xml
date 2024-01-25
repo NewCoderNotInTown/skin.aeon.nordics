@@ -683,10 +683,21 @@
 			</control>
 			<control type="group">
 				<visible>Integer.IsGreater(Container(50).NumItems,0)</visible>
-				<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)</visible>
+				<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(directors)</visible>
 				<left>-526</left>
 				<top>155</top>
 				<include>VisibleFadeAnimation</include>
+				<control type="image">
+					<visible>Container.Content(directors)</visible>
+					<left>90</left>
+					<width>395</width>
+					<height>535</height>
+					<aspectratio aligny="center">stretch</aspectratio>
+					<texture  background="true">$VAR[DirectorsThumbnails]</texture>
+					<fadetime>400</fadetime>
+					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
+					<bordersize>30</bordersize>
+				</control>
 				<control type="image">
 					<visible>Container.Content(movies) | Container.Content(tvshows) | Container.Content(sets) | Container.Content(seasons)</visible>
 					<visible>!ListItem.IsParentFolder</visible>
