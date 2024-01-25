@@ -693,7 +693,7 @@
 					<width>395</width>
 					<height>535</height>
 					<aspectratio aligny="center">stretch</aspectratio>
-					<texture  background="true">$VAR[DirectorsThumbnails]</texture>
+					<texture fallback="DirectorsThumbDefault.jpg" background="true">$VAR[DirectorsThumbnails]</texture>
 					<fadetime>400</fadetime>
 					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
 					<bordersize>30</bordersize>
