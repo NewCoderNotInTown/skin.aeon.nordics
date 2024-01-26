@@ -706,7 +706,7 @@
 					<height>535</height>
 					<aspectratio aligny="center">stretch</aspectratio>
 					<!-- <texture>VideoGenreIcons/$INFO[listitem.label,,.jpg]</texture> -->
-					<texture  background="true" fallback="tajo/movie-genres.jpg">$VAR[PosterVar]</texture>
+					<texture  background="true">$VAR[PosterVar]</texture>
 					<fadetime>400</fadetime>
 					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
 					<bordersize>30</bordersize>
@@ -942,7 +942,7 @@
 					<width>570</width>
 					<height>835</height>
 					<aspectratio aligny="center">keep</aspectratio>
-					<texture diffuse="tajo/mask_cover3.png" background="true" fallback="tajo/movie-genres.jpg">$VAR[PosterVar]</texture>
+					<texture diffuse="tajo/mask_cover3.png" background="true">$VAR[PosterVar]</texture>
 					<fadetime>400</fadetime>
 					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
 					<bordersize>30</bordersize>
@@ -953,7 +953,7 @@
 					<width>570</width>
 					<height>835</height>
 					<aspectratio aligny="center">keep</aspectratio>
-					<texture diffuse="tajo/mask_cover3.png" background="true" fallback="tajo/movie-genres.jpg">$VAR[PosterVar]</texture>
+					<texture diffuse="tajo/mask_cover3.png" background="true">$VAR[PosterVar]</texture>
 					<fadetime>400</fadetime>
 					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
 					<bordersize>30</bordersize>
