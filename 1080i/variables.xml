@@ -495,7 +495,6 @@
 		<value condition="[Container.Content(episodes) | Container.Content(seasons)] + !String.IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
 		<value condition="[Container.Content(episodes) | Container.Content(seasons)] + !String.IsEmpty(ListItem.Art(tvshow.poster))">$INFO[ListItem.Art(tvshow.poster)]</value>
 		<value condition="!String.IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
-		<!-- <value condition="Container.Content(genres)">tajo/movie-genres.jpg</value> -->
 		<value condition="Container.Content(genres)">
 			<texture>VideoGenreIcons/$INFO[listitem.label,,.jpg]</texture>
 		</value>
@@ -545,7 +544,6 @@
 	<variable name="PosterThumbVar">
 		<value condition="!String.IsEmpty(ListItem.Art(tvshow.poster)) + !Container.Content(seasons)">$INFO[ListItem.Art(tvshow.poster)]</value>
 		<value condition="!String.IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
-		<!-- <value condition="Container.Content(genres)">tajo/movie-genres.jpg</value> -->
 		<value condition="Container.Content(genres)">
 			 <texture>VideoGenreIcons/$INFO[listitem.label,,.jpg]</texture>
 		</value>
@@ -1936,12 +1934,10 @@
 		<!-- Icon -->
 		<value condition="String.IsEmpty(ListItem.Art(poster)) + String.IsEmpty(ListItem.Art(tvshow.poster)) + ![Container.Content(genres) | Container.Content(countries) | Container.Content(studios) | Container.Content(years) | Container.Content(episodes)] | Container.Content(episodes)">$INFO[ListItem.Icon]</value>
 		<!-- Generos video -->
-		<!-- <value condition="Window.IsActive(videos) + Container.Content(genres)">tajo/movie-genres.jpg</value> -->
 		<value condition="Window.IsActive(videos) + Container.Content(genres)">
 			<texture>VideoGenreIcons/$INFO[listitem.label,,.jpg]</texture>
 		</value>
 		<!-- Generos musica -->
-		<!-- <value condition="[Window.IsActive(musicplaylist) | Window.IsActive(music)] + Container.Content(genres)">tajo/music-genres.jpg</value> -->
 		<value condition="[Window.IsActive(musicplaylist) | Window.IsActive(music)] + Container.Content(genres)">
 			<texture>MusicGenreIcons/$INFO[listitem.label,,.jpg]</texture>
 		</value>
