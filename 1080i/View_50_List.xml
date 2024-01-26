@@ -937,12 +937,11 @@
 				<visible>Container.Content(genres) | Container.Content(musicvideos) | Container.Content() | Container.Content(files) | Container.Content(addons) | Container.Content(years) | Container.Content(tags)</visible>
 				<include>VisibleFadeAnimation</include>
 				<control type="image">
-					<visible>!Container.Content(addons)</visible>
+					<visible>!Container.Content(addons) + !Container.Content(genres)</visible>
 					<animation effect="slide" center="auto" end="-1810,-10" time="0" condition="true">Conditional</animation>
 					<width>570</width>
 					<height>835</height>
 					<aspectratio aligny="center">keep</aspectratio>
-					<texture fallback="VideoGenreIcons/Default.jpg">VideoGenreIcons/$INFO[listitem.label,,.jpg]</texture>
 					<texture diffuse="tajo/mask_cover3.png" background="true" fallback="tajo/movie-genres.jpg">$VAR[PosterVar]</texture>
 					<fadetime>400</fadetime>
 					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
@@ -954,8 +953,18 @@
 					<width>570</width>
 					<height>835</height>
 					<aspectratio aligny="center">keep</aspectratio>
-					<!-- <texture>VideoGenreIcons/$INFO[listitem.label,,.jpg]</texture> -->
 					<texture diffuse="tajo/mask_cover3.png" background="true" fallback="tajo/movie-genres.jpg">$VAR[PosterVar]</texture>
+					<fadetime>400</fadetime>
+					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
+					<bordersize>30</bordersize>
+				</control>
+				<control type="image">
+					<visible>Container.Content(genres)</visible>
+					<animation effect="slide" center="auto" end="-1840,-10" time="0" condition="true">Conditional</animation>
+					<width>570</width>
+					<height>835</height>
+					<aspectratio aligny="center">keep</aspectratio>
+					<texture fallback="VideoGenreIcons/Default.jpg">VideoGenreIcons/$INFO[listitem.label,,.jpg]</texture>
 					<fadetime>400</fadetime>
 					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
 					<bordersize>30</bordersize>
