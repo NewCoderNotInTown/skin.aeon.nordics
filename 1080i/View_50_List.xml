@@ -8,21 +8,6 @@
 			<centerleft>50%</centerleft>
 			<width>100%</width>
 			<control type="group">
-				<animation effect="slide" center="auto" end="620,-30" time="0" condition="true">Conditional</animation>
-				<left>1296</left>
-				<top>155</top>
-				<visible>Container.Content(genres)</visible>
-				<control type="image">
-					<width>340</width>
-					<height>500</height>
-					<aspectratio aligny="center">keep</aspectratio>
-					<texture fallback="VideoGenreIcons/Default.jpg">VideoGenreIcons/$INFO[listitem.label,,.jpg]</texture>
-					<fadetime>400</fadetime>
-					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
-					<bordersize>30</bordersize>
-				</control>
-			</control>
-			<control type="group">
 				<left>100</left>
 				<top>-40</top>
 				<control type="fixedlist" id="50">
@@ -683,21 +668,10 @@
 			</control>
 			<control type="group">
 				<visible>Integer.IsGreater(Container(50).NumItems,0)</visible>
-				<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(directors)</visible>
+				<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)</visible>
 				<left>-526</left>
 				<top>155</top>
-				<include>VisibleFadeAnimation</include>
-				<control type="image">
-					<visible>Container.Content(directors)</visible>
-					<left>90</left>
-					<width>395</width>
-					<height>535</height>
-					<aspectratio aligny="center">stretch</aspectratio>
-					<texture fallback="DirectorsThumbDefault.jpg" background="true">$VAR[DirectorsThumbnails]</texture>
-					<fadetime>400</fadetime>
-					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
-					<bordersize>30</bordersize>
-				</control>
+				<include>VisibleFadeAnimation</include>				
 				<control type="image">
 					<visible>Container.Content(movies) | Container.Content(tvshows) | Container.Content(sets) | Container.Content(seasons)</visible>
 					<visible>!ListItem.IsParentFolder</visible>
@@ -705,8 +679,7 @@
 					<width>395</width>
 					<height>535</height>
 					<aspectratio aligny="center">stretch</aspectratio>
-					<!-- <texture>VideoGenreIcons/$INFO[listitem.label,,.jpg]</texture> -->
-					<texture  background="true">$VAR[PosterVar]</texture>
+					<texture background="true" fallback="tajo/movie-genres.jpg">$VAR[PosterVar]</texture>
 					<fadetime>400</fadetime>
 					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
 					<bordersize>30</bordersize>
@@ -934,10 +907,10 @@
 				<visible>!ListItem.IsParentFolder</visible>
 				<left>1296</left>
 				<top>155</top>
-				<visible>Container.Content(genres) | Container.Content(musicvideos) | Container.Content() | Container.Content(files) | Container.Content(addons) | Container.Content(years) | Container.Content(tags)</visible>
+				<visible>Container.Content(genres) | Container.Content(musicvideos) | Container.Content() | Container.Content(files) | Container.Content(addons) | Container.Content(years) | Container.Content(tags) | Container.Content(studios)| Container.Content(countries)</visible>
 				<include>VisibleFadeAnimation</include>
 				<control type="image">
-					<visible>!Container.Content(addons) + !Container.Content(genres)</visible>
+					<visible>!Container.Content(addons) + !Container.Content(genres) + !Container.Content(studios) + !Container.Content(countries)</visible>
 					<animation effect="slide" center="auto" end="-1810,-10" time="0" condition="true">Conditional</animation>
 					<width>570</width>
 					<height>835</height>
@@ -969,6 +942,28 @@
 					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
 					<bordersize>30</bordersize>
 				</control>
+				<control type="image">
+					<visible>Container.Content(studios)</visible>
+					<animation effect="slide" center="auto" end="-1840,-10" time="0" condition="true">Conditional</animation>
+					<width>570</width>
+					<height>835</height>
+					<aspectratio aligny="center">keep</aspectratio>
+					<texture fallback="defaultstudios.png">$VAR[StudiosColoured]</texture>
+					<fadetime>400</fadetime>
+					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
+					<bordersize>30</bordersize>
+				</control>
+				<control type="image">
+					<visible>Container.Content(countries)</visible>
+					<animation effect="slide" center="auto" end="-1840,-10" time="0" condition="true">Conditional</animation>
+					<width>570</width>
+					<height>835</height>
+					<aspectratio aligny="center">keep</aspectratio>
+					<texture fallback="DefaultCountry.png">$VAR[MovieCountry]</texture>
+					<fadetime>400</fadetime>
+					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
+					<bordersize>30</bordersize>
+				</control>
 			</control>
 			<control type="group">
 				<visible>!ListItem.IsParentFolder</visible>
@@ -985,6 +980,18 @@
 					<height>835</height>
 					<aspectratio align="center" aligny="center">keep</aspectratio>
 					<texture diffuse="tajo/mask_cover3.png" background="true">$VAR[PosterVar]</texture>
+					<fadetime>400</fadetime>
+					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
+					<bordersize>30</bordersize>
+				</control>
+				<control type="image">
+					<left>10</left>
+					<top>180</top>
+					<visible>Container.Content(directors)</visible>
+					<width>570</width>
+					<height>835</height>
+					<aspectratio align="center" aligny="center">keep</aspectratio>
+					<texture diffuse="tajo/mask_cover3.png" fallback="DirectorsThumbDefault.jpg" background="true">$VAR[DirectorsThumbnails]</texture>
 					<fadetime>400</fadetime>
 					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
 					<bordersize>30</bordersize>
@@ -2335,7 +2342,6 @@
 					<width>520</width>
 					<height>520</height>
 					<aspectratio aligny="center">keep</aspectratio>
-					<!-- <texture diffuse="tajo/mask_cover3.png" background="true">tajo/music-genres.jpg</texture> -->
 					<texture fallback="MusicGenreIcons/Default.jpg">MusicGenreIcons/$INFO[listitem.label,,.jpg]</texture>
 					<fadetime>400</fadetime>
 					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
