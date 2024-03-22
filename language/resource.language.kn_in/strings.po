@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Aeon Tajo
-# Addon id: skin.aeon.tajo
-# Addon Provider: manfeed
+# Addon Name: Aeon Tajo Nordics
+# Addon id: skin.aeon.tajo.nordics
+# Addon Provider: nordicguy
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 msgctxt "Addon Summary"
-msgid "Aeon Tajo"
+msgid "Aeon Tajo Nordics"
 msgstr ""
 
 msgctxt "Addon Description"
