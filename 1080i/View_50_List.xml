@@ -8,6 +8,21 @@
 			<centerleft>50%</centerleft>
 			<width>100%</width>
 			<control type="group">
+				<animation effect="slide" center="auto" end="-1795,142" time="0" condition="true">Conditional</animation>
+				<left>1296</left>
+				<top>155</top>
+				<visible>Container.Content(genres)</visible>
+				<control type="image">
+					<width>340</width>
+					<height>500</height>
+					<aspectratio aligny="center">keep</aspectratio>
+					<texture>VideoGenreIcons/$INFO[ListItem.label,,.jpg]</texture>
+					<fadetime>400</fadetime>
+					<bordertexture border="40" infill="false">dialogs/default/bg.png</bordertexture>
+					<bordersize>30</bordersize>
+				</control>
+			</control>
+			<control type="group">
 				<left>100</left>
 				<top>-40</top>
 				<control type="fixedlist" id="50">
