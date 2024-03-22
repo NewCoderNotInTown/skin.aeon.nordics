@@ -2065,9 +2065,15 @@
 		<value condition="Container.Content(episodes) + Control.IsVisible(501)">$INFO[ListItem.Art(season.poster)]</value>
 		<value condition="String.IsEmpty(ListItem.Art(poster)) + String.IsEmpty(ListItem.Art(tvshow.poster)) + ![Container.Content(genres) | Container.Content(countries) | Container.Content(studios) | Container.Content(years) | Container.Content(episodes)] | Container.Content(episodes)">$INFO[ListItem.Icon]</value>
 		<!-- Generos video -->
-		<value condition="Window.IsActive(videos) + Container.Content(genres)">tajo/movie-genres.jpg</value>
+		<!-- <value condition="Window.IsActive(videos) + Container.Content(genres)">tajo/movie-genres.jpg</value> -->
+		<value condition="Window.IsActive(videos) + Container.Content(genres)">
+			<texture>VideoGenreIcons/$INFO[ListItem.label,,.jpg]</texture>
+		</value>
 		<!-- Generos musica -->
-		<value condition="[Window.IsActive(musicplaylist) | Window.IsActive(music)] + Container.Content(genres)">tajo/music-genres.jpg</value>
+		<!-- <value condition="[Window.IsActive(musicplaylist) | Window.IsActive(music)] + Container.Content(genres)">tajo/music-genres.jpg</value> -->
+		<value condition="Container.Content(genres)">
+			<texture>MusicGenreIcons/$INFO[ListItem.label,,.jpg]</texture>
+		</value>
 		<!-- Estudios -->
 		<value condition="Container.Content(studios)">tajo/movie-studios.jpg</value>
 	</variable>
