@@ -207,6 +207,13 @@
 			<control type="image">
 				<texture>black.png</texture>
 			</control>
+			<control type="image" id="9778">
+				<aspectratio>stretch</aspectratio>
+				<fadetime>IconCrossfadeTime</fadetime>
+				<imagepath background="true">$VAR[VideoInfoCharacterPosterSingle]</imagepath>	<texture>resource://resource.images.characterposter/$INFO[ListItem.IMDBNumber]/$INFO[Container(90050).ListItem.Label].jpg</texture>
+				<animation effect="fade" time="300">Visible</animation>
+				<visible>[Control.HasFocus(50) | Control.HasFocus(90050)]</visible>
+			</control>
 			<control type="multiimage">
 				<aspectratio>scale</aspectratio>
 				<fadetime>400</fadetime>
