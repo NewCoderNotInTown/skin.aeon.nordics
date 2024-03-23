@@ -68,6 +68,13 @@
 		<control type="multiimage">
 			<visible>String.IsEqual(Container.Viewmode,Magazine) | String.IsEqual(Container.Viewmode,$LOCALIZE[32046]) | String.IsEqual(Container.Viewmode,$LOCALIZE[21888]) | String.IsEqual(Container.Viewmode,$LOCALIZE[535]) | String.IsEqual(Container.Viewmode,Multiwall) | String.IsEqual(Container.Viewmode,Multisort) | String.IsEqual(Container.Viewmode,Banner) | String.IsEqual(Container.Viewmode,CenterList) | String.IsEqual(Container.Viewmode,WideWall) | String.IsEqual(Container.Viewmode,Wall) | String.IsEqual(Container.Viewmode,Triple) | String.IsEqual(Container.Viewmode,Shelf) | String.IsEqual(Container.Viewmode,RightList)</visible>
 			<visible>!Window.IsActive(MyPVRChannels.xml) + !Window.IsActive(MyPVRGuide.xml) + !Window.IsActive(MyPVRRecordings.xml) + !Window.IsActive(MyPVRSearch.xml) + !Window.IsActive(MyPVRTimers.xml)</visible>
+			<visible>!Window.IsActive(videos) + !Container.Content(genres)</visible>
+			<description>Normal Default Background Image</description>
+			<include>FullscreenDimensions</include>
+			<imagepath colordiffuse="ff464646" fallback="special://skin/backgrounds/default_bg.jpg" background="true">$VAR[GlobalBackgroundVar]</imagepath>
+		</control>
+		<control type="multiimage">
+			<visible>Window.IsActive(videos) + Container.Content(genres)</visible>
 			<description>Normal Default Background Image</description>
 			<include>FullscreenDimensions</include>
 			<imagepath fallback="special://skin/backgrounds/default_bg.jpg" background="true">$VAR[GlobalBackgroundVar]</imagepath>
