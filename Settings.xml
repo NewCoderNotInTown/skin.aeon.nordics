@@ -115,7 +115,7 @@
     <setting id="Custom16HomeItem.WidgetType" type="string"></setting>
     <setting id="pictureshomeitem.disable" type="string"></setting>
     <setting id="Custom7HomeItem.MultiFanart" type="string"></setting>
-    <setting id="custom3homeitem.path" type="string">ActivateWindow(Programs,&quot;plugin://plugin.program.super.favourites/?label=Radio&amp;mode=400&amp;path=C%3A%5CUsers%5CYasmeen%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CRadio&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CRadio-icon.jpg&amp;fanart=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CRadio-fanart.jpg&amp;content_type=&quot;,return)</setting>
+    <setting id="custom3homeitem.path" type="string">ActivateWindow(Programs,&quot;plugin://plugin.program.super.favourites/?label=Radio&amp;mode=400&amp;path=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CRadio&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CRadio-icon.jpg&amp;fanart=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CRadio-fanart.jpg&amp;content_type=&quot;,return)</setting>
     <setting id="mark_type" type="string">5</setting>
     <setting id="Custom8HomeItem.BGType" type="string"></setting>
     <setting id="MusicVideos.Fallback" type="string"></setting>
@@ -127,7 +127,7 @@
     <setting id="Custom3HomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom5HomeItem.Label" type="string"></setting>
     <setting id="TVShowHomeItem.InfoLine" type="string">2</setting>
-    <setting id="custom2homeitem.path" type="string">ActivateWindow(Videos,&quot;plugin://plugin.program.super.favourites/?label=Youtube&amp;mode=400&amp;path=C%3A%5CUsers%5CYasmeen%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CYoutube&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CMisc%5CYoutube.png&amp;fanart=C%3A%5CUsers%5CYasmeen%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.program.super.favourites%5Cfanart.jpg&amp;content_type=&quot;,return)</setting>
+    <setting id="custom2homeitem.path" type="string">ActivateWindow(Videos,&quot;plugin://plugin.program.super.favourites/?label=Youtube&amp;mode=400&amp;path=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CYoutube&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CMisc%5CYoutube.png&amp;fanart=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.program.super.favourites%5Cfanart.jpg&amp;content_type=&quot;,return)</setting>
     <setting id="MovieHomeItem.WidgetType" type="string"></setting>
     <setting id="GamesHomeItem.Label" type="string">GAMES</setting>
     <setting id="Custom6HomeItem.Widget" type="string"></setting>
@@ -263,7 +263,7 @@
     <setting id="Custom14HomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom17HomeItem.Label" type="string"></setting>
     <setting id="Custom18HomeItem.WidgetType" type="string"></setting>
-    <setting id="custom1homeitem.path" type="string">ActivateWindow(Music,&quot;plugin://plugin.program.super.favourites/?label=Podcasts&amp;mode=400&amp;path=C%3A%5CUsers%5CYasmeen%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CPodcasts&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CMisc%5CPodcasts.jpg&amp;fanart=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CPodcasts-fanart.jpg&amp;content_type=&quot;,return)</setting>
+    <setting id="custom1homeitem.path" type="string">ActivateWindow(Music,&quot;plugin://plugin.program.super.favourites/?label=Podcasts&amp;mode=400&amp;path=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CPodcasts&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CMisc%5CPodcasts.jpg&amp;fanart=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CPodcasts-fanart.jpg&amp;content_type=&quot;,return)</setting>
     <setting id="Music.Fallback" type="string"></setting>
     <setting id="Custom9HomeItem.InfoLine" type="string"></setting>
     <setting id="Custom17HomeItem.MultiFanart" type="string"></setting>
@@ -271,7 +271,7 @@
     <setting id="Custom18HomeItem.InfoLine" type="string"></setting>
     <setting id="FavoritesHomeItem.Path" type="string"></setting>
     <setting id="Custom12HomeItem.Icon" type="string"></setting>
-    <setting id="GamesHomeItem.Path" type="string">ActivateWindow(Programs,&quot;plugin://plugin.program.super.favourites/?label=Games&amp;mode=400&amp;path=C%3A%5CUsers%5CYasmeen%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CGames&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CGames-icon1.png&amp;fanart=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CGames-fanart.jpg&amp;content_type=&quot;,return)</setting>
+    <setting id="GamesHomeItem.Path" type="string">ActivateWindow(Programs,&quot;plugin://plugin.program.super.favourites/?label=Games&amp;mode=400&amp;path=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CGames&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CGames-icon1.png&amp;fanart=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CGames-fanart.jpg&amp;content_type=&quot;,return)</setting>
     <setting id="Custom15HomeItem.InfoLine" type="string"></setting>
     <setting id="PicturesHomeItem.Path" type="string"></setting>
     <setting id="LiveTVHomeItem.Label" type="string"></setting>
