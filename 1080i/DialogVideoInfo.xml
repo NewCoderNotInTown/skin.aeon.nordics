@@ -214,8 +214,8 @@
 			</control>
 		</control>
 		<control type="image">
-			<aspectratio>keep</aspectratio>
-			<fadetime>IconCrossfadeTime</fadetime>
+			<aspectratio>scale</aspectratio>
+			<fadetime>400</fadetime>
 			<imagepath background="true">$VAR[VideoInfoCharacterPosterSingle]</imagepath>
 			<texture>resource://resource.images.characterposter/$INFO[ListItem.IMDBNumber]/$INFO[Container(90050).ListItem.Label].jpg</texture>
 			<animation effect="fade" time="300">Visible</animation>
