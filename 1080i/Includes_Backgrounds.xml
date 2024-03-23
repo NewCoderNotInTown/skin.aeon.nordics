@@ -70,7 +70,7 @@
 			<visible>!Window.IsActive(MyPVRChannels.xml) + !Window.IsActive(MyPVRGuide.xml) + !Window.IsActive(MyPVRRecordings.xml) + !Window.IsActive(MyPVRSearch.xml) + !Window.IsActive(MyPVRTimers.xml)</visible>
 			<description>Normal Default Background Image</description>
 			<include>FullscreenDimensions</include>
-			<imagepath colordiffuse="ff464646" fallback="special://skin/backgrounds/default_bg.jpg" background="true">$VAR[GlobalBackgroundVar]</imagepath>
+			<imagepath fallback="special://skin/backgrounds/default_bg.jpg" background="true">$VAR[GlobalBackgroundVar]</imagepath>
 		</control>
 		<control type="multiimage">
 			<visible>Window.IsActive(MyPVRChannels.xml) | Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) | Window.IsActive(MyPVRSearch.xml) | Window.IsActive(MyPVRTimers.xml)</visible>

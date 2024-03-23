@@ -10,11 +10,11 @@
 			<control type="group">
 				<animation effect="slide" center="auto" end="-1795,142" time="0" condition="true">Conditional</animation>
 				<left>1296</left>
-				<top>155</top>
+				<top>70</top>
 				<visible>Container.Content(genres)</visible>
 				<control type="image">
-					<width>340</width>
-					<height>500</height>
+					<width>500</width>
+					<height>750</height>
 					<aspectratio aligny="center">keep</aspectratio>
 					<texture>VideoGenreIcons/$INFO[ListItem.label,,.jpg]</texture>
 					<fadetime>400</fadetime>
@@ -1106,7 +1106,7 @@
 				<visible>!ListItem.IsParentFolder</visible>
 				<left>1296</left>
 				<top>155</top>
-				<visible>Container.Content(genres) | Container.Content(musicvideos) | Container.Content() | Container.Content(files) | Container.Content(addons) | Container.Content(years) | Container.Content(tags)</visible>
+				<visible>Container.Content(musicvideos) | Container.Content() | Container.Content(files) | Container.Content(addons) | Container.Content(years) | Container.Content(tags)</visible>
 				<include>VisibleFadeAnimation</include>
 				<control type="image">
 					<visible>!Container.Content(addons)</visible>

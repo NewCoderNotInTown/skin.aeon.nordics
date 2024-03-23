@@ -212,14 +212,14 @@
 				<fadetime>400</fadetime>
 				<imagepath background="true">$VAR[VideoInfoPosterVar]</imagepath>
 			</control>
-		</control>
-		<control type="image">
-			<aspectratio>scale</aspectratio>
-			<fadetime>400</fadetime>
-			<imagepath background="true">$VAR[VideoInfoCharacterPosterSingle]</imagepath>
-			<texture>resource://resource.images.characterposter/$INFO[ListItem.IMDBNumber]/$INFO[Container(90050).ListItem.Label].jpg</texture>
-			<animation effect="fade" time="300">Visible</animation>
-			<visible>[Control.HasFocus(50) | Control.HasFocus(90050)] + System.AddonIsEnabled(resource.images.characterposter)</visible>
+			<control type="image">
+				<aspectratio>scale</aspectratio>
+				<fadetime>400</fadetime>
+				<imagepath background="true">$VAR[VideoInfoCharacterPosterSingle]</imagepath>
+				<texture>resource://resource.images.characterposter/$INFO[ListItem.IMDBNumber]/$INFO[Container(90050).ListItem.Label].jpg</texture>
+				<animation effect="fade" time="300">Visible</animation>
+				<visible>[Control.HasFocus(50) | Control.HasFocus(90050)] + System.AddonIsEnabled(resource.images.characterposter)</visible>
+			</control>
 		</control>
 		<control type="image">
 			<visible>!String.IsEmpty(Window(Home).Property(Extras_info))</visible>
