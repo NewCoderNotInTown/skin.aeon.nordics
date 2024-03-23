@@ -800,6 +800,10 @@ msgctxt "#31226"
 msgid "Extra posters"
 msgstr ""
 
+msgctxt "#31230"
+msgid "Character posters"
+msgstr ""
+
 # empty strings from id 31227 to 31249
 msgctxt "#31250"
 msgid "Automatic Full Screen when playing music"
@@ -1557,6 +1561,10 @@ msgstr ""
 
 msgctxt "#32039"
 msgid "Shows all the extra posters (poster1.jpg, poster2.jpg, poster3.jpg...) in movies and TV shows views."
+msgstr ""
+
+msgctxt "#32095"
+msgid "Show the character posters in the movie information view. Requires character poster addon"
 msgstr ""
 
 msgctxt "#32040"

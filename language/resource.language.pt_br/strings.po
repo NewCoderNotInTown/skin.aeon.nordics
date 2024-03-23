@@ -1554,6 +1554,10 @@ msgctxt "#32039"
 msgid "Shows all the extra posters (poster1.jpg, poster2.jpg, poster3.jpg...) in movies and TV shows views."
 msgstr ""
 
+msgctxt "#32095"
+msgid "Show the character posters in the movie information view. Requires character poster addon"
+msgstr ""
+
 msgctxt "#32040"
 msgid "Thanks for using Aeon Tajo, I really hope you enjoy it! Creating and maintaining a skin for Kodi is very hard and requires hundreds of hours of work. If you like Aeon Tajo and you’re willing to support it, you’ll get:[CR][CR] [B]***[/B] Exclusive access to hidden Aeon Tajo’s features, such as browsing and playing of the user’s extra content directly from media views, and some more. [CR] [B]***[/B] Frequent updates of Aeon Tajo, containing new features and bug fixes. [CR] [B]***[/B] Videos, media packs and articles with detailed instructions to take advantage of the many features of Aeon Tajo to the full. [CR][CR]For more information, visit [B][COLOR=themecolor]patreon.com[/B][/COLOR] and search for the creator [COLOR=themecolor][B]Aeon Tajo[/B][/COLOR], or go to [COLOR=themecolor][B]patreon.com/aeontajo[/B][/COLOR]. Thanks!"
 msgstr ""

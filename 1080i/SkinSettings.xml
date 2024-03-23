@@ -577,6 +577,12 @@
 						<onclick>Skin.Reset(animatedposters)</onclick>
 						<selected>!Skin.HasSetting(animatedposters) + Skin.HasSetting(extraposters)</selected>
 					</control>
+					<control type="radiobutton" id="225">
+						<include>SettingsButtonCommonValues</include>
+						<label>$LOCALIZE[31230]</label>
+						<onclick>Skin.ToggleSetting(characterposters)</onclick>
+						<selected>Skin.HasSetting(characterposters)</selected>
+					</control>
 					<control type="radiobutton" id="291">
 						<width>1316</width>
 						<height>70</height>

@@ -154,6 +154,7 @@
 		<include>DisplayChar</include>
 		<include condition="Skin.HasSetting(showCast) | Skin.HasSetting(similars)">DisplayCast</include>
 		<include condition="Skin.HasSetting(showCast) + System.HasAddon(resource.images.actorart)">DisplayPngCast</include>
+		<include condition="[Control.HasFocus(50) | Control.HasFocus(90050)] + System.AddonIsEnabled(resource.images.characterposter)">CharacterPoster</include>
 		<control type="group">
 			<include>VideoList</include>
 			<!-- view id = 50 -->

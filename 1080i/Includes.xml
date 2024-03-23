@@ -2624,6 +2624,14 @@
 			</control>
 		</control>
 	</include>
+
+	<include name="CharacterPoster">
+		<control type="image" id="5990">
+			<imagepath background="true">$VAR[VideoInfoCharacterPosterSingle]</imagepath>
+			<content>resource://resource.images.characterposter/$INFO[ListItem.IMDBNumber]/$INFO[Container(90050).ListItem.Label].jpg</content>
+		</control>
+	</include>
+
 	<include name="Screensaver_Netflix">
 		<control type="group">
 			<visible>[System.IdleTime(120) + !Skin.HasSetting(playTrailer)] | [System.IdleTime(240) + Skin.HasSetting(playTrailer)]</visible>
