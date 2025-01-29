@@ -8,13 +8,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-03-25 19:16+0000\n"
-"Last-Translator: taxigps <taxigps@sina.com>\n"
-"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-aeon-tajo/zh_cn/>\n"
-"Language: zh_cn\n"
+"Last-Translator: skypichat <skypichat@hotmail.fr>\n"
+"Language-Team: French (France) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-aeon-tajo/fr_fr/>\n"
+"Language: fr_fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
@@ -23,127 +23,127 @@ msgstr "Aeon Tajo"
 
 msgctxt "Addon Description"
 msgid "Aeon Tajo: Changes everything so that nothing changes. Inspired on Aeon Nox 5 (thanks to BigNoid)."
-msgstr "Aeon Tajo：所有的改变带来不变的感受。灵感源自 Aeon Nox 5（感谢 BigNoid）。"
+msgstr "Aeon Tajo : Change tout pour que rien ne change. Inspiré de Aeon Nox 5 (merci à BigNoid)."
 
 msgctxt "Addon Disclaimer"
 msgid "Mouse control is supported, althoug not recommended. It may not work correctly in all cases."
-msgstr "支持鼠标控制，但不建议使用。它可能不会在所有情况下都正常工作。"
+msgstr "Le contrôle de la souris est pris en charge, bien que non recommandé. Cela peut ne pas fonctionner correctement dans tous les cas."
 
 msgctxt "#31000"
 msgid "Directed by"
-msgstr "导演是"
+msgstr "Réalisé par"
 
 msgctxt "#31001"
 msgid "Written by"
-msgstr "编剧是"
+msgstr "Écrit par"
 
 msgctxt "#31002"
 msgid "Blurred album thumb"
-msgstr "模糊专辑缩略图"
+msgstr "Miniature d'album floutée"
 
 msgctxt "#31003"
 msgid "Power Options"
-msgstr "电源选项"
+msgstr "Options d'alimentation"
 
 msgctxt "#31004"
 msgid "Working"
-msgstr "执行中"
+msgstr "Travail en cours"
 
 msgctxt "#31005"
 msgid "Fixed"
-msgstr "固定"
+msgstr "Fixé"
 
 msgctxt "#31006"
 msgid "View Options"
-msgstr "视图选项"
+msgstr "Options d'affichage"
 
 msgctxt "#31007"
 msgid "Setup home"
-msgstr "设置主页"
+msgstr "Configurer l'accueil"
 
 msgctxt "#31008"
 msgid "Full screen"
-msgstr "全屏"
+msgstr "Plein écran"
 
 msgctxt "#31009"
 msgid "Total Duration"
-msgstr "总时长"
+msgstr "Durée totale"
 
 msgctxt "#31010"
 msgid "Next episode"
-msgstr "下一集"
+msgstr "Prochain épisode"
 
 msgctxt "#31011"
 msgid "Latest episode"
-msgstr "最新剧集"
+msgstr "Dernier épisode"
 
 msgctxt "#31012"
 msgid "Airs"
-msgstr "播出"
+msgstr "Diffusé"
 
 msgctxt "#31013"
 msgid "Statistics"
-msgstr "统计"
+msgstr "Statistiques"
 
 msgctxt "#31014"
 msgid "Extras"
-msgstr "额外"
+msgstr "Extras"
 
 msgctxt "#31015"
 msgid "Set path to video genre fanart folder"
-msgstr "设置视频类型同人画文件夹的路径"
+msgstr "Définir le chemin vers le dossier de FanArts de genre vidéos"
 
 msgctxt "#31016"
 msgid "Poster"
-msgstr "海报"
+msgstr "Affiche"
 
 msgctxt "#31017"
 msgid "Set path to music genre fanart folder"
-msgstr "设置音乐类型同人画文件夹的路径"
+msgstr "Définir le chemin vers le répertoire de FanArts de genre musique"
 
 msgctxt "#31018"
 msgid "InfoPanel"
-msgstr "信息面板"
+msgstr "Panneau d'infos"
 
 msgctxt "#31019"
 msgid "Network"
-msgstr "网络"
+msgstr "Réseau"
 
 msgctxt "#31020"
 msgid "Extra-fanart"
-msgstr "额外同人画"
+msgstr "Extra-fanart"
 
 msgctxt "#31021"
 msgid "Stage curtains"
-msgstr "舞台幕布"
+msgstr "Rideau rouge"
 
 msgctxt "#31022"
 msgid "Set multi-image background"
-msgstr "设置多图像背景"
+msgstr "Définir les multi-images d'arrière-plan"
 
 msgctxt "#31023"
 msgid "Set single image background"
-msgstr "设置单图像背景"
+msgstr "Définir l'image simple d'arrière-plan"
 
 msgctxt "#31024"
 msgid "Page"
-msgstr "页"
+msgstr "Page"
 
 msgctxt "#31025"
 msgid "Items"
-msgstr "项目"
+msgstr "Objets"
 
 msgctxt "#31026"
 msgid "Misc Options"
-msgstr "杂项"
+msgstr "Options diverses"
 
 msgctxt "#31027"
 msgid "Set item background"
-msgstr "设置项目背景"
+msgstr "Définir l'élément d'arrière-plan"
 
 msgctxt "#31028"
 msgid "Live DVD Cases"
-msgstr "Live DVD 盒"
+msgstr "Boitiers DVD dynamiques"
 
 msgctxt "#31029"
 msgid "Recent Movies"
@@ -187,327 +187,327 @@ msgstr ""
 
 msgctxt "#31039"
 msgid "Actions"
-msgstr "动作"
+msgstr "Actions"
 
 msgctxt "#31040"
 msgid "Now Playing"
-msgstr "正在播放"
+msgstr "En cours de lecture"
 
 msgctxt "#31041"
 msgid "Select widget"
-msgstr "选择桌面小部件"
+msgstr "Choisir un widget"
 
 msgctxt "#31042"
 msgid "Show \"Now Playing\" information blended in the background"
-msgstr "在背景中混合显示“正在播放”信息"
+msgstr "Afficher l'information \"En cours de lecture\" incrustée en fond d'écran"
 
 msgctxt "#31043"
 msgid "Platform"
-msgstr "平面"
+msgstr "Plateforme"
 
 msgctxt "#31044"
 msgid "Views: Plot outline | Info dialog: Full plot"
-msgstr "视图：剧情简介 | 信息对话框：完整剧情"
+msgstr "Vues : Résumé court | Fenêtre infos : Résumé complet"
 
 msgctxt "#31045"
 msgid "Views: Full plot | Info dialog: Plot outline"
-msgstr "视图：完整剧情 | 信息对话框：剧情简介"
+msgstr "Vues : Résumé complet | Fenêtre infos : Résumé court"
 
 msgctxt "#31046"
 msgid "SEEKING"
-msgstr "搜索中"
+msgstr "RECHERCHE"
 
 msgctxt "#31047"
 msgid "Set item icon"
-msgstr "设置项目图标"
+msgstr "Définir l'icône de l'élément"
 
 msgctxt "#31048"
 msgid "Visualisation Presets"
-msgstr "可视化效果预设"
+msgstr "Préréglages de visualisation"
 
 msgctxt "#31049"
 msgid "Select infoline"
-msgstr "选择信息栏"
+msgstr "Sélectionner la ligne d'infos"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr "排序：升序"
+msgstr "Tri : Ascendant"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr "排序：降序"
+msgstr "Tri : Descendant"
 
 msgctxt "#31052"
 msgid "Movie library statistics"
-msgstr "电影资料库统计"
+msgstr "Statistiques de la bibliothèque de films"
 
 msgctxt "#31053"
 msgid "TV Show library statistics"
-msgstr "剧集资料库统计"
+msgstr "Statistiques de la médiathèque de séries TV"
 
 msgctxt "#31054"
 msgid "Music library statistics"
-msgstr "音乐资料库统计"
+msgstr "Statistiques de la musithèque"
 
 msgctxt "#31055"
 msgid "Open playlist"
-msgstr "打开播放列表"
+msgstr "Ouvrir la liste de lecture"
 
 msgctxt "#31056"
 msgid "Save playlist"
-msgstr "保存播放列表"
+msgstr "Sauvegarder la liste de lecture"
 
 msgctxt "#31057"
 msgid "Close playlist"
-msgstr "关闭播放列表"
+msgstr "Fermer la liste de lecture"
 
 msgctxt "#31058"
 msgid "PVR information"
-msgstr "PVR 信息"
+msgstr "Informations de l'enregistreur vidéo"
 
 msgctxt "#31059"
 msgid "Install Artist Slideshow add-on to enable this feature"
-msgstr "安装 Artist Slideshow 插件以启用此功能"
+msgstr "Installer l'extension de diaporama d'artiste pour activer cette fonction"
 
 msgctxt "#31060"
 msgid "This file is stacked, select the part you want to play from."
-msgstr "这是一个堆叠文件，请选择要播放的片段。"
+msgstr "Ce fichier est empilé. Sélectionner le point à partir duquel l'écouter."
 
 msgctxt "#31061"
 msgid "Favourites statistics"
-msgstr "收藏夹统计"
+msgstr "Statistiques favoris"
 
 msgctxt "#31062"
 msgid "Random movie fanart"
-msgstr "随机电影同人画"
+msgstr "Suggestion de FanArt de film"
 
 msgctxt "#31063"
 msgid "Random TV show fanart"
-msgstr "随机剧集同人画"
+msgstr "Fanart de séries aléatoire"
 
 msgctxt "#31064"
 msgid "Random video fanart"
-msgstr "随机视频同人画"
+msgstr "FanArt vidéo aléatoire"
 
 msgctxt "#31065"
 msgid "Random music fanart"
-msgstr "随机音乐同人画"
+msgstr "FanArt aléatoire de musique"
 
 msgctxt "#31066"
 msgid "Random fanart"
-msgstr "随机同人画"
+msgstr "FanArt aléatoire"
 
 msgctxt "#31067"
 msgid "Update rating"
-msgstr "更改评分"
+msgstr "Mettre à jour la notation"
 
 msgctxt "#31068"
 msgid "CD Wall"
-msgstr "CD 墙"
+msgstr "Mur de CD"
 
 msgctxt "#31069"
 msgid "Change location"
-msgstr "更改位置"
+msgstr "Changer l'emplacement"
 
 msgctxt "#31070"
 msgid "Enable Cinema Experience integration"
-msgstr "启用影院体验集成"
+msgstr "Activer l'intégration de \"Expérience Cinéma\""
 
 msgctxt "#31071"
 msgid "While browsing the library"
-msgstr "当浏览资料库时"
+msgstr "En parcourant la médiathèque"
 
 msgctxt "#31072"
 msgid "On open video info"
-msgstr "在打开的视频信息"
+msgstr "En ouvrant les infos de vidéo"
 
 msgctxt "#31073"
 msgid "Move menu item"
-msgstr "移动菜单项"
+msgstr "Déplacer l'élément de menu"
 
 msgctxt "#31074"
 msgid "Choose item to swap places with"
-msgstr "选择要交换位置的项目"
+msgstr "Choisir l'élément à interchanger"
 
 msgctxt "#31075"
 msgid "No extra features available"
-msgstr "没有额外的功能"
+msgstr "Fonction supplémentaire non disponible"
 
 msgctxt "#31076"
 msgid "Landscape"
-msgstr "横向"
+msgstr "Paysage"
 
 msgctxt "#31077"
 msgid "ShowCase"
-msgstr "展示"
+msgstr "Vitrine"
 
 msgctxt "#31078"
 msgid "TriPanel"
-msgstr "三面板"
+msgstr "Panneau triple"
 
 msgctxt "#31079"
 msgid "Shift"
-msgstr "平移"
+msgstr "Shift"
 
 msgctxt "#31080"
 msgid "Manage submenu"
-msgstr "管理子菜单"
+msgstr "Gestion du sous-menu"
 
 msgctxt "#31081"
 msgid "Enable custom submenus"
-msgstr "启用自定义子菜单"
+msgstr "Activer les sous-menus personnalisés"
 
 msgctxt "#31082"
 msgid "Detach RSS feed from the main menu"
-msgstr "从主菜单中分离 RSS 源"
+msgstr "Retirer les flux RSS du menu principal"
 
 msgctxt "#31083"
 msgid "Enable Next Aired information in the videolibrary"
-msgstr "在视频资料库中启用下一播出的信息"
+msgstr "Activer l'information de prochaine diffusion dans la bibliothèque vidéo"
 
 msgctxt "#31084"
 msgid "Conditional weather"
-msgstr "天气情况"
+msgstr "Météo conditionnelle"
 
 msgctxt "#31085"
 msgid "Musicvideo library statistics"
-msgstr "音乐电视资料库统计"
+msgstr "Statistiques de la médiathèque de vidéos musicales"
 
 msgctxt "#31086"
 msgid "Icon"
-msgstr "图标"
+msgstr "Icône"
 
 msgctxt "#31087"
 msgid "Banner"
-msgstr "横幅"
+msgstr "Bannière"
 
 msgctxt "#31088"
 msgid "BannerWall"
-msgstr "横幅墙"
+msgstr "Mur de bannières"
 
 msgctxt "#31089"
 msgid "Play item on startup"
-msgstr "启动时播放项目"
+msgstr "Jouer l'élément au démarrage"
 
 msgctxt "#31090"
 msgid "Seconds"
-msgstr "秒"
+msgstr "Secondes"
 
 msgctxt "#31091"
 msgid "Select items"
-msgstr "选择项目"
+msgstr "Sélectionner les éléments"
 
 msgctxt "#31092"
 msgid "Fullscreen fanart"
-msgstr "全屏同人画"
+msgstr "FanArt plein écran"
 
 msgctxt "#31093"
 msgid "LowList toggle"
-msgstr "低列表切换"
+msgstr "Interrupteur liste basse"
 
 msgctxt "#31094"
 msgid "List view layout"
-msgstr "列表视图布局"
+msgstr "Disposition de la vue liste"
 
 msgctxt "#31095"
 msgid "Slim List"
-msgstr "细列表"
+msgstr "Liste fine"
 
 msgctxt "#31096"
 msgid "Concert locations"
-msgstr "音乐会地点"
+msgstr "Lieu des concerts"
 
 msgctxt "#31097"
 msgid "Movie playlist statistics"
-msgstr "电影播放列表统计"
+msgstr "Statistiques de la liste de lecture films"
 
 msgctxt "#31098"
 msgid "TV Show playlist statistics"
-msgstr "剧集播放列表统计"
+msgstr "Statistiques de la liste de lecture séries TV"
 
 msgctxt "#31099"
 msgid "Musicvideo playlist statistics"
-msgstr "音乐电视播放列表统计"
+msgstr "Statistiques de la liste de lecture Clips vidéos"
 
 msgctxt "#31100"
 msgid "View:"
-msgstr "视图："
+msgstr "Vue :"
 
 msgctxt "#31101"
 msgid "Choose view"
-msgstr "选择视图"
+msgstr "Choisir vue"
 
 msgctxt "#31102"
 msgid "Background"
-msgstr "背景"
+msgstr "Arrière-plan"
 
 msgctxt "#31103"
 msgid "N/A"
-msgstr "不可用"
+msgstr "N/D"
 
 msgctxt "#31104"
 msgid "Similar artists"
-msgstr "同类艺人"
+msgstr "Artistes similaires"
 
 msgctxt "#31105"
 msgid "More albums from"
-msgstr "更多专辑来自"
+msgstr "Plus d'albums de"
 
 msgctxt "#31106"
 msgid "On info"
-msgstr "关于信息"
+msgstr "Pour infos"
 
 msgctxt "#31107"
 msgid "Persistent"
-msgstr "持久的"
+msgstr "Persistant"
 
 msgctxt "#31108"
 msgid "Enable artist information feed (if available)"
-msgstr "启用艺术家信息源（如果有）"
+msgstr "Activer le flux d'information de l'artiste (si disponible)"
 
 msgctxt "#31109"
 msgid "Unwatched episode count"
-msgstr "未观看的剧集数"
+msgstr "Nombre d'épisodes non vus"
 
 msgctxt "#31110"
 msgid "Up next brings the option to watch right away the next episode of a tvshow (Netflix/Prime video style)."
-msgstr "接下来您可以选择立即观看剧集的下一集（网飞/亚马逊视频风格）。"
+msgstr "Up next apporte la possibilité de regarder immédiatement le prochain épisode d'une série TV (style vidéo Netflix / Prime)."
 
 msgctxt "#31111"
 msgid "Similar movies"
-msgstr "同类电影"
+msgstr "Films similaires"
 
 msgctxt "#31112"
 msgid "Movies directed by"
-msgstr "电影导演是"
+msgstr "Films réalisés par"
 
 msgctxt "#31113"
 msgid "Movies written by"
-msgstr "电影编剧是"
+msgstr "Films écrits par"
 
 msgctxt "#31114"
 msgid "More movies from"
-msgstr "更多电影出自"
+msgstr "D'autres films de"
 
 msgctxt "#31115"
 msgid "Similar TV shows"
-msgstr "同类剧集"
+msgstr "Séries TV similaires"
 
 msgctxt "#31116"
 msgid "cycle fanart"
-msgstr "循环同人画"
+msgstr "afficher en boucle les FanArts"
 
 msgctxt "#31117"
 msgid "Fallback"
-msgstr "备选"
+msgstr "Repli"
 
 msgctxt "#31118"
 msgid "Download extrafanart"
-msgstr "下载额外同人画"
+msgstr "Télécharger les extrafanarts"
 
 msgctxt "#31119"
 msgid "Show the movies from this director in your library or view online information on this director on TMDb?"
-msgstr "显示此导演在您的资料库中的电影或在 TMDb 上查看有关此导演的在线信息？"
+msgstr "Faut-il afficher les films de ce réalisateur dans la médiathèque ou voir en ligne les informations de ce réalisateur sur TMDb ?"
 
 msgctxt "#31120"
 msgid "TMDb"
@@ -515,116 +515,115 @@ msgstr "TMDb"
 
 msgctxt "#31121"
 msgid "Disable autocomplete"
-msgstr "禁用自动完成"
+msgstr "Désactiver l'auto-complétion"
 
 msgctxt "#31122"
 msgid "Disables the autocomplete feature of the virtual keyboard"
-msgstr "禁用虚拟键盘的自动完成功能"
+msgstr "Désactive l'auto-complétion sur le clavier virtuelle"
 
 msgctxt "#31123"
 msgid "Album review"
-msgstr "专辑评论"
+msgstr "Critique de l'album"
 
 msgctxt "#31124"
 msgid "Show Background \"Now Playing\" Video"
-msgstr "在背景显示“正在播放”视频"
+msgstr "Afficher la vidéo « En cours de lecture » en arrière-plan"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualisation"
-msgstr "在背景显示“正在播放”可视化效果"
+msgstr "Afficher la visualisation « En cours de lecture » en arrière-plan"
 
 msgctxt "#31126"
 msgid "Opacity level for widgets"
 msgstr ""
 
-# empty string with id 31126
 msgctxt "#31127"
 msgid "LiveTV Mod Settings"
-msgstr "LiveTV Mod 设置"
+msgstr "Paramètres LiveTV Mod"
 
 msgctxt "#31128"
 msgid "Channels View"
-msgstr "频道视图"
+msgstr "Vue des chaînes"
 
 msgctxt "#31129"
 msgid "Hide Fanart in full screen visualisation"
-msgstr "全屏可视化效果中隐藏同人画"
+msgstr "Cache les Fanarts en mode plein écran"
 
 msgctxt "#31130"
 msgid "Use \"Enigma2-style\" channel OSD"
-msgstr "使用“Enigma2-Style”频道 OSD"
+msgstr "Utiliser « Enigma2-style » sur l'incrustation des chaînes"
 
 msgctxt "#31131"
 msgid "EPG Timeline View"
-msgstr "EPG 时间线视图"
+msgstr "Vue EPG Timeline"
 
 msgctxt "#31132"
 msgid "Tuner:"
-msgstr "调谐器："
+msgstr "Tuner :"
 
 msgctxt "#31133"
 msgid "Timeline channels-type:"
-msgstr "时间轴频道类型："
+msgstr "Type de chaînes de la ligne temporelle :"
 
 msgctxt "#31134"
 msgid "Timeline view-type:"
-msgstr "时间轴视图类型："
+msgstr "Type de vue de la ligne temporelle :"
 
 msgctxt "#31135"
 msgid "Infobar Options"
-msgstr "信息栏选项"
+msgstr "Options de la barre d'informations"
 
 msgctxt "#31136"
 msgid "Infobar type:"
-msgstr "信息栏样式："
+msgstr "Type de barre d'informations :"
 
 msgctxt "#31137"
 msgid "Hide encryption information"
-msgstr "隐藏加密信息"
+msgstr "Masquer les informations de cryptage"
 
 msgctxt "#31138"
 msgid "Hide tuner information"
-msgstr "隐藏调谐器信息"
+msgstr "Masquer les informations du tuner"
 
 msgctxt "#31139"
 msgid "Hide signal information"
-msgstr "隐藏信号信息"
+msgstr "Masquer la puissance du signal"
 
 msgctxt "#31140"
 msgid "Sideblade Options"
-msgstr "侧板选项"
+msgstr "Options des bandes latérales"
 
 msgctxt "#31141"
 msgid "Hide Guide"
-msgstr "隐藏指南"
+msgstr "Masquer le guide des programmes"
 
 msgctxt "#31142"
 msgid "Settings level"
-msgstr "设置级别"
+msgstr "Niveau de paramétrage"
 
 msgctxt "#31143"
 msgid "Hide Recordings"
-msgstr "隐藏录像"
+msgstr "Masquer les enregistrements"
 
 msgctxt "#31144"
 msgid "Hide Timer"
-msgstr "隐藏计时器"
+msgstr "Masquer le minuteur"
 
 msgctxt "#31145"
 msgid "Hide Search"
-msgstr "隐藏搜索"
+msgstr "Masquer la recherche"
 
 msgctxt "#31146"
 msgid "Rated"
-msgstr "已评分"
+msgstr "Noté"
 
 msgctxt "#31147"
 msgid "Change rating"
-msgstr "改变评级"
+msgstr "Modifier la notation"
 
 msgctxt "#31148"
 msgid "List local library items"
-msgstr "列出本地资料库项目"
+msgstr "Afficher les éléments de la médiathèque locale"
 
 msgctxt "#31149"
 msgid "Online info from TMDb"
@@ -632,123 +631,123 @@ msgstr ""
 
 msgctxt "#31150"
 msgid "Select studio logo artwork"
-msgstr "选择工作室徽标插图"
+msgstr "Sélectionner l'illustration du logo du studio"
 
 msgctxt "#31151"
 msgid "Customize the studio logos by choosing a different logo pack. Note that this has no effect on the studio icons displayed in the \"List\" view."
-msgstr "通过选择不同的徽标包来定制工作室徽标。请注意，这对“列表”视图中显示的工作室图标没有影响。"
+msgstr "Personnaliser les logos du studio en choisissant un autre pack de logos. Noter que cela n'a aucun effet sur les icônes du studio affichées dans la vue \"Liste\"."
 
 msgctxt "#31152"
 msgid "In progress movies"
-msgstr "放映中的电影"
+msgstr "Films en cours"
 
 msgctxt "#31153"
 msgid "Popular movies on TheMovieDB.org"
-msgstr "TheMovieDB.org 上的热门电影"
+msgstr "Films populaires sur TheMovieDB.org"
 
 msgctxt "#31154"
 msgid "Top rated movies on TheMovieDB.org"
-msgstr "TheMovieDB.org 上的高分电影"
+msgstr "Films les mieux notés sur TheMovieDB.org"
 
 msgctxt "#31155"
 msgid "Movies currently in cinema"
-msgstr "当前正在上映的电影"
+msgstr "Films actuellement au cinéma"
 
 msgctxt "#31156"
 msgid "Upcoming movies"
-msgstr "即将上映的电影"
+msgstr "Films à venir"
 
 msgctxt "#31157"
 msgid "Multi movie widget"
-msgstr "多电影小部件"
+msgstr "Widget multi-films"
 
 msgctxt "#31158"
 msgid "IMDb Top 250 movies"
-msgstr "IMDb 排行榜前250部电影"
+msgstr "Top 250 des films IMDb"
 
 msgctxt "#31159"
 msgid "Event log"
-msgstr "事件日志"
+msgstr "Journal des évènements"
 
 msgctxt "#31160"
 msgid "Display background name"
-msgstr "显示背景名称"
+msgstr "Affiche le nom de l'arrière-plan"
 
 msgctxt "#31161"
 msgid "Display title of movie/tvshow/artist on home screen if the background has a fanart slideshow as background"
-msgstr "如果背景为同人画幻灯片，则在主屏幕上显示电影/剧集/艺术家名"
+msgstr "Afficher le titre du film/séries TV/artiste sur l'écran d'accueil si l'arrière-plan a un diaporama fanart comme arrière-plan"
 
 msgctxt "#31162"
 msgid "min"
-msgstr "分"
+msgstr "min"
 
 msgctxt "#31163"
 msgid "TIMESHIFT"
-msgstr "时光平移"
+msgstr "TIMESHIFT"
 
 msgctxt "#31164"
 msgid "Change weather icons"
-msgstr "改变天气图标"
+msgstr "Changer les icônes météo"
 
 msgctxt "#31165"
 msgid "Layout"
-msgstr "布局"
+msgstr "Mise en page"
 
 msgctxt "#31166"
 msgid "Wall"
-msgstr "封面墙"
+msgstr "Mur"
 
 msgctxt "#31167"
 msgid "You're watching"
-msgstr "您正在收看的是"
+msgstr "Vous regardez"
 
 msgctxt "#31168"
 msgid "h"
-msgstr "时"
+msgstr "h"
 
 msgctxt "#31169"
 msgid "m"
-msgstr "分"
+msgstr "m"
 
 msgctxt "#31170"
 msgid "Enable Netflix style pause screen"
-msgstr "启用 Netflix 样式暂停屏幕"
+msgstr "Activer l'écran de pause style Netflix"
 
 msgctxt "#31171"
 msgid "Shows an overview of the movie or episode 10 seconds after the video is paused."
-msgstr "在视频暂停10秒后显示电影或剧集的概述。"
+msgstr "Affiche un aperçu du film ou de l'épisode 10 secondes après la pause de la vidéo."
 
 msgctxt "#31172"
 msgid "Inactive"
-msgstr "不活动的"
+msgstr "Inactif"
 
 msgctxt "#31173"
 msgid "Decoder"
-msgstr "解码器"
+msgstr "Décodeur"
 
 msgctxt "#31174"
 msgid "Hardware decoding"
-msgstr "硬件解码中"
+msgstr "Décodage matériel"
 
 msgctxt "#31175"
 msgid "press 'OK' to see more..."
-msgstr "按下“确定”查看更多……"
+msgstr "appuyer sur 'OK' pour en voir plus..."
 
 msgctxt "#31176"
 msgid "Enter text here..."
-msgstr "在此输入文本……"
+msgstr "Saisir un texte ici..."
 
 msgctxt "#31177"
 msgid "Player controls"
-msgstr "播放器控制"
+msgstr "Contrôles du lecteur"
 
 msgctxt "#31178"
 msgid "Playlist options"
-msgstr "播放列表选项"
+msgstr "Options de la liste de lecture"
 
 msgctxt "#31179"
 msgid "Critics"
-msgstr "评论家"
+msgstr "Critiques"
 
 msgctxt "#31180"
 msgid "Play main theme when browsing movies and TV shows"
@@ -756,15 +755,15 @@ msgstr ""
 
 msgctxt "#31181"
 msgid "Display cast in video views"
-msgstr "在视频视图中显示演员表"
+msgstr "Afficher la distribution dans les vues vidéo"
 
 msgctxt "#31182"
 msgid "Hide current time in media views"
-msgstr "在媒体视图中隐藏当前时间"
+msgstr "Masquer l'heure actuelle dans les vues multimédias"
 
 msgctxt "#31183"
 msgid "Hide number of items in media views"
-msgstr "在媒体视图中隐藏项目数"
+msgstr "Masquer le nombre d'éléments dans les vues multimédias"
 
 msgctxt "#31184"
 msgid "Enable or disable video views"
@@ -833,7 +832,7 @@ msgstr ""
 # empty strings from id 31184 to 31199
 msgctxt "#31200"
 msgid "Is used to choose among different Kodi resource image pack to weather artwork and icons."
-msgstr "用于在不同的 Kodi 资源图像包中选择天气艺术图片和图标。"
+msgstr "Est utilisé pour choisir parmi différents packs d'images pour les illustrations et les icônes."
 
 msgctxt "#31201"
 msgid "Performance impact"
@@ -853,7 +852,7 @@ msgstr ""
 
 msgctxt "#31205"
 msgid "Lyrics Source"
-msgstr "歌词来源"
+msgstr "Source pour les paroles"
 
 msgctxt "#31206"
 msgid "Customization"
@@ -914,31 +913,31 @@ msgstr ""
 # empty strings from id 31206 to 31219
 msgctxt "#31220"
 msgid "Show rating"
-msgstr "显示评级"
+msgstr "Afficher la note"
 
 msgctxt "#31221"
 msgid "Show artist clearart"
-msgstr "显示艺人剪贴画"
+msgstr "Afficher le clearart de l'artiste"
 
 msgctxt "#31222"
 msgid "Show CD"
-msgstr "显示光盘"
+msgstr "Afficher le CD"
 
 msgctxt "#31223"
 msgid "Show Time"
-msgstr "显示时间"
+msgstr "Afficher l'heure"
 
 msgctxt "#31224"
 msgid "Animated posters"
-msgstr "动态海报"
+msgstr "Affiches animées"
 
 msgctxt "#31225"
 msgid "Normal posters"
-msgstr "普通海报"
+msgstr "Affiches normales"
 
 msgctxt "#31226"
 msgid "Extra posters"
-msgstr "额外海报"
+msgstr "Affiches supplémentaires"
 
 msgctxt "#31227"
 msgid "Sets the transparency level of the home menu widgets."
@@ -999,11 +998,11 @@ msgstr ""
 # empty strings from id 31227 to 31249
 msgctxt "#31250"
 msgid "Automatic Full Screen when playing music"
-msgstr "播放音乐时自动全屏"
+msgstr "Plein écran automatique lors de la lecture de musique"
 
 msgctxt "#31251"
 msgid "Don't play melodies while in Home Screen"
-msgstr "在主屏幕中时不播放旋律"
+msgstr "Ne pas lire de mélodies sur l'écran d'accueil"
 
 msgctxt "#31252"
 msgid "Always show home screen widgets"
@@ -1011,23 +1010,23 @@ msgstr ""
 
 msgctxt "#31253"
 msgid "Choose user audio playlist *.m3u (max.10 songs)"
-msgstr "选择用户音频播放列表*.m3u（最多10首歌曲）"
+msgstr "Choisir la liste de lecture audio de l'utilisateur *.m3u (max.10 chansons)"
 
 msgctxt "#31254"
 msgid "Clear user playlist (back to default)"
-msgstr "清除用户播放列表（恢复默认）"
+msgstr "Effacer la liste de lecture de l'utilisateur (retour à la valeur par défaut)"
 
 msgctxt "#31300"
 msgid "Overview"
-msgstr "概览"
+msgstr "Aperçu"
 
 msgctxt "#31301"
 msgid "Last Updated"
-msgstr "最近更新"
+msgstr "Dernière mise à jour"
 
 msgctxt "#31307"
 msgid "Hide Fanart"
-msgstr "隐藏同人画"
+msgstr "Masquer le fanart"
 
 msgctxt "#31308"
 msgid "Next aired"
@@ -1035,58 +1034,58 @@ msgstr ""
 
 msgctxt "#31309"
 msgid "Memory Used:"
-msgstr "内存己用："
+msgstr "Mémoire utilisée :"
 
 msgctxt "#31317"
 msgid "Set Fanart Path"
-msgstr "设置同人画目录"
+msgstr "Définir le chemin du fanart"
 
 msgctxt "#31320"
 msgid "Last Logged In"
-msgstr "最近登录"
+msgstr "Dernière connexion"
 
 msgctxt "#31321"
 msgid "Karaoke Song Selector"
-msgstr "卡拉OK歌曲选择器"
+msgstr "Sélecteur de titres du karaoké"
 
 msgctxt "#31328"
 msgid "Recently Added"
-msgstr "最新加入"
+msgstr "Ajouté récemment"
 
 # empty strings from id 31329 to 31330
 msgctxt "#31331"
 msgid "Installed"
-msgstr "已安装"
+msgstr "Installé"
 
 msgctxt "#31332"
 msgid "Not Installed"
-msgstr "未安装"
+msgstr "Non installé"
 
 # empty string with id 31333
 msgctxt "#31334"
 msgid "Required"
-msgstr "依赖"
+msgstr "Requis"
 
 msgctxt "#31335"
 msgid "Recommended"
-msgstr "推荐"
+msgstr "Recommandé"
 
 msgctxt "#31336"
 msgid "Optional"
-msgstr "可选的"
+msgstr "Optionnel"
 
 msgctxt "#31390"
 msgid "Skin default"
-msgstr "皮肤默认"
+msgstr "Prédéfini par l'habillage"
 
 # empty strings from id 31391 to 31399
 msgctxt "#31400"
 msgid "[B]CONFIGURE INTERFACE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Setup remote controls[CR]Set up a screensaver · Setup master lock"
-msgstr "[B]配置接口设置[/B][CR][CR]更改皮肤 · 设置语言和区域 · 设置遥控器[CR]设置屏幕保护程序 · 设置主锁"
+msgstr "[B]CONFIGURER LES PARAMÈTRES DE L'INTERFACE[/B][CR][CR]Changer l'apparence · Définir la langue et la région · Configurer les télécommandes[CR]Configurer un économiseur d'écran · Configurer le verrouillage principal"
 
 msgctxt "#31401"
 msgid "Menu - press 'OK'"
-msgstr "菜单 - 按“确定”"
+msgstr "Menu - appuyer sur 'OK'"
 
 msgctxt "#31402"
 msgid "Enable startup video intro"
@@ -1094,209 +1093,206 @@ msgstr ""
 
 msgctxt "#31405"
 msgid "[B]MONITOR YOUR SYSTEM[/B][CR][CR]Check out your hardware · Monitor CPU usage[CR]Check Kodi revision number"
-msgstr "[B]监测你的系统[/B][CR][CR]检查你的硬件 · 监测 CPU 使用情况[CR]检查 Kodi 版本号"
+msgstr "[B]SURVEILLER VOTRE SYSTÈME[/B][CR][CR]Vérifier votre matériel · Surveiller l'utilisation du CPU[CR]Vérifier le numéro de révision d'Kodi"
 
 msgctxt "#31406"
 msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · [CR]Set power saving options · Enable debugging"
-msgstr "[B]配置系统设置[/B][CR][CR]设置和校准显示 · 配置音频输出[CR]设置节能选项 · 启用调试"
+msgstr "[B]CONFIGURER LES PARAMÈTRES DU SYSTÈME[/B][CR][CR]Configurer et calibrer les écrans · Configurer la sortie audio · [CR]Définir les options d'économie d'énergie · Activer le débogage"
 
 msgctxt "#31407"
 msgid "[B]SETUP PROFILES[/B][CR][CR]Setup and manage user profiles · Enable login screen[CR]Change password · Add a profile picture"
-msgstr "[B]设置配置文件[/B][CR][CR]设置和管理用户配置文件 · 启用登录屏幕[CR]更改密码 · 添加配置文件图片"
+msgstr "[B]DEFINIR LES PROFILES[/B][CR][CR]Définir et gérer les profiles utilisateur · Activer l'écran de connexion[CR]Changer le mot de passe · Ajouter un avatar au profil"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG data settings"
-msgstr "[B]配置电视设置[/B][CR][CR]更改全屏信息 · 管理电子节目单数据设置"
+msgstr "[B]CONFIGURER RÉGLAGES TV[/B][CR][CR]Changer les informations de plein écran · Gérer les données du Guide des Programmes"
 
 msgctxt "#31410"
 msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]设置网络服务[/B][CR][CR]设置通过 UPnP 和 HTTP 控制 Kodi · 配置文件共享[CR]启用 Zeroconf · 设置 AirPlay"
+msgstr "[B]CONFIGURATION DES PARAMÈTRES DE SERVICE[/B][CR][CR]Configurer le contrôle de Kodi en UPnP et HTTP · Configurer le partage de fichiers[CR]Activer Zeroconf · Configurer AirPlay"
 
-# empty string with id 31411
 msgctxt "#31412"
 msgid "Select section"
-msgstr "选择部分"
+msgstr "Choisir la section"
 
 msgctxt "#31413"
 msgid "Local subtitle available"
-msgstr "本地字幕可用"
+msgstr "Sous-titre disponible localement"
 
 msgctxt "#31414"
 msgid "[B]CONFIGURE PLAYER SETTINGS[/B][CR][CR]Configure video playback · Configure music playback · Configure picture slideshow[CR]Configure video language and subtitles"
-msgstr "[B]配置播放器设置[/B][CR][CR]配置视频播放 · 配置音乐播放 · 配置图片幻灯片放映[CR]配置视频语言和字幕"
+msgstr "[B]CONFIGURER LES PARAMÈTRES DU LECTEUR[/B][CR][CR]Configurer la lecture vidéo · Configurer la lecture de musique · Configurer le diaporama d'images[CR]Configurer la langue et les sous-titres de la vidéo"
 
 msgctxt "#31415"
 msgid "[B]CONFIGURE MEDIA SETTINGS[/B][CR][CR]Set default select action · Configure file list options · Configure metadata options[CR]Manage databases"
-msgstr "[B]配置媒体设置[/B][CR][CR]设置默认选择动作 · 配置文件列表选项 · 配置元数据选项[CR]管理数据库"
+msgstr "[B]CONFIGURER LES PARAMÈTRES MÉDIA[/B][CR][CR]Définir l'action de sélection par défaut · Configurer les options de la liste de fichiers · Configurer les options de métadonnées[CR]Gérer les bases de données"
 
-# empty strings from id 31416 to 31420
 msgctxt "#31421"
 msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "选择您的 Kodi 用户配置文件[CR]登录并继续"
+msgstr "Sélectionner le profil Kodi[CR]pour se connecter et continuer"
 
 # empty strings from id 31422 to 31426
 msgctxt "#31427"
 msgid "Skin Shortcuts is responsible for handling all aspects of the main menu."
-msgstr "Skin Shortcuts 负责处理主菜单的所有方面。"
+msgstr "Skin Shortcuts est responsable de la gestion de tous les aspects du menu principal."
 
 msgctxt "#31428"
 msgid "The Grab Fanart script provides the random fanart slideshows for the main menu."
-msgstr "Grab Fanart 脚本为主菜单提供随机的同人画幻灯片。"
+msgstr "Le script Grab Fanart fournit les diaporamas de fanarts aléatoires du menu principal."
 
 msgctxt "#31429"
 msgid "Library Data Provider is a service that runs in the background to provide library data for widgets and live backgrounds as well as playlist statistics for infolines."
-msgstr "Library Data Provider 是一个在后台运行的服务，它为小部件和实时背景提供库数据，并为信息行提供播放列表统计信息。"
+msgstr "Library Data Provider est un service fonctionnant en arrière-plan et coordonne les données des bibliothèques pour les widgets, les arrière-plans en direct, ainsi que des statistiques des listes de lecture."
 
 msgctxt "#31430"
 msgid "Resource image addon for displaying the default white studio icons throughout the skin."
-msgstr "资源图像插件，用于在整个皮肤中显示默认的白色工作室图标。"
+msgstr "L'extension Resource Image affiche les icônes de studio blanc par défaut dans l'habillage."
 
 msgctxt "#31431"
 msgid "Resource image addon for displaying the default white recording label icons throughout the skin."
-msgstr "资源图像插件，用于在整个皮肤中显示默认的白色录制标签图标。"
+msgstr "L'extension Resource image affiche les étiquettes d'enregistrement en blanc par défaut dans l'habillage."
 
 msgctxt "#31432"
 msgid "Provides numerous Widget options and extended cast and crew metadata."
-msgstr "提供了许多小部件选项和扩展的演员和剧组元数据。"
+msgstr "Fournit de nombreuses options de widget et des métadonnées étendues sur les acteurs et l'équipe."
 
 msgctxt "#31433"
 msgid "Skin Info Service is used to display movie set information throughout the skin."
-msgstr "皮肤信息服务用于在整个皮肤中显示电影集信息。"
+msgstr "Skin Info Service est utilisé pour afficher des informations sur les sagas de films sur l'ensemble de l'habillage."
 
 msgctxt "#31434"
 msgid "Check MP3 Theme checks whether the user has put a theme.mp3 file in the corresponding movie/TV show folder to be played when browsing."
-msgstr "检查 MP3 主题曲检查用户是否在相应电影/剧集文件夹存放了 theme.mp3 文件用于浏览时播放。"
+msgstr "Check MP3 Theme vérifie si l'utilisateur a placé un fichier theme.mp3 dans le dossier de film/émission de télévision correspondant à lire lors de la navigation."
 
 # empty strings from id 31435 to 31449
 msgctxt "#31450"
 msgid "  •  Open Settings "
-msgstr "  •  打开设置 "
+msgstr "  •   Ouvrir les paramètres "
 
 msgctxt "#31451"
 msgid "  •  Click to Install"
-msgstr "  •  点击安装"
+msgstr "  •   Cliquer pour installer"
 
 # empty strings from id 31452 to 31472
 msgctxt "#31473"
 msgid "Embuary Helper provides the data to display the cast for movies and TV shows."
-msgstr "Embuary Helper 提供用于电影和剧集演员信息显示的数据。"
+msgstr "Embuary Helper fournit les données pour afficher la distribution des films et des série TV."
 
 msgctxt "#31474"
 msgid "CU LRC Lyrics is used to download, sync, and display lyrics during fullscreen music playback."
-msgstr "CU LRC Lyrics 用于在全屏音乐播放期间下载、同步和显示歌词。"
+msgstr "CU LRC Lyrics est utilisé pour télécharger, synchroniser et afficher les paroles durant la lecture musicale en plein écran."
 
 msgctxt "#31475"
 msgid "Play Trailer makes possible to play movie trailers through a context menu. "
-msgstr "播放预告片可以通过上下文菜单播放电影预告片。 "
+msgstr "Play Trailer permet de lire des bandes annonces de films via un menu contextuel. "
 
 msgctxt "#31476"
 msgid "Allows the use of Youtube to play trailers and other videos."
-msgstr "允许使用 Youtube 播放预告片和其他视频。"
+msgstr "Permet l'utilisation de YouTube pour lire des bandes annonces et d'autres vidéos."
 
 msgctxt "#31477"
 msgid "Provides some cast actress images to be shown in video views."
-msgstr "提供一些要在视频视图中显示的演员图像。"
+msgstr "Fournit des images d'actrices du casting à afficher dans les vues vidéo."
 
 msgctxt "#31478"
 msgid "Artist Slideshow is used to display artist fanart for both the home screen and during fullscreen music playback."
-msgstr "Artist Slideshow 用于在主屏幕和全屏音乐播放期间显示艺术家同人画。"
+msgstr "Artist Slideshow affiche des fanarts sur l'écran d'accueil durant la lecture de musique en pleine écran."
 
 msgctxt "#31479"
 msgid "AutoCompletion provides suggestions to be selected while using the virtual keyboard."
-msgstr "自动完成提供了使用虚拟键盘时选择的建议。"
+msgstr "La saisie semi-automatique fournit des suggestions à sélectionner lors de l'utilisation du clavier virtuel."
 
 msgctxt "#31480"
 msgid "Library Editor Script uses JSON to directly edit your database information."
-msgstr "资料库编辑器脚本使用 JSON 直接编辑数据库信息。"
+msgstr "Library Editor Script utilise JSON pour modifier directement les informations de votre base de données."
 
 msgctxt "#31481"
 msgid "Global Search makes possible to search among all the items (movies, TV shows, music, actors, etc.) in your collection."
-msgstr "Global Search 用于在你的所有项目（电影、剧集、音乐、演员等）中搜索。"
+msgstr "La recherche globale permet de rechercher parmi tous les éléments (films, séries TV, musique, acteurs, etc.) de votre collection."
 
-# empty strings from id 31482 to 31500
 msgctxt "#31501"
 msgid "Channel group"
-msgstr "频道组"
+msgstr "Groupe de chaînes"
 
 msgctxt "#31502"
 msgid "Live TV"
-msgstr "直播电视"
+msgstr "TV en direct"
 
 msgctxt "#31503"
 msgid "Add Group"
-msgstr "增加组"
+msgstr "Ajouter un groupe"
 
 msgctxt "#31504"
 msgid "Rename Group"
-msgstr "更名组"
+msgstr "Renommer le groupe"
 
 msgctxt "#31505"
 msgid "Delete Group"
-msgstr "删除组"
+msgstr "Supprimer le groupe"
 
 msgctxt "#31506"
 msgid "Available[CR]Groups"
-msgstr "可用组"
+msgstr "Groupes[CR]disponibles"
 
 msgctxt "#31511"
 msgid "Channel Options"
-msgstr "频道选项"
+msgstr "Options des chaînes"
 
 msgctxt "#31512"
 msgid "Show similar movies in Shelf 3D view"
-msgstr "在架子3D视图中显示同类电影"
+msgstr "Afficher des films similaires dans la vue 3D de l'étagère"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"
-msgstr "36小时预报"
+msgstr "Prévisions sur 36 heures"
 
 msgctxt "#31902"
 msgid "Hourly Forecast"
-msgstr "每小时预报"
+msgstr "Prévisions heure par heure"
 
 msgctxt "#31903"
 msgid "Weekend Forecast"
-msgstr "一周预报"
+msgstr "Prévisions pour le weekend"
 
 msgctxt "#31904"
 msgid "10 Day Forecast"
-msgstr "10日预报"
+msgstr "Prévisions sur 10 jours"
 
 msgctxt "#31908"
 msgid "Chance of Precipitation"
-msgstr "降雨概率"
+msgstr "Risque de pluie"
 
 msgctxt "#31909"
 msgid "Fetching forecast info..."
-msgstr "获取天气信息..."
+msgstr "Récupération des prévisions météo…"
 
 msgctxt "#31910"
 msgid "Map & Alerts"
-msgstr "地图 & 警报"
+msgstr "Carte & Alertes"
 
 msgctxt "#31911"
 msgid "Setup the Aeon Tajo main menu"
-msgstr "设置 Aeon Tajo 主菜单"
+msgstr "Configure le menu principal Aeon Tajo"
 
 msgctxt "#31912"
 msgid "Customize the main menu with widgets, backgrounds and statistics. Add your own custom main menu items."
-msgstr "使用小部件、背景和统计信息自定义主菜单。添加您自己的自定义主菜单项。"
+msgstr "Personnaliser le menu principal avec des widgets, des fonds d'écrans et des statistiques. Ajouter vos propres éléments dans le menu principal."
 
 msgctxt "#31913"
 msgid "Aeon Tajo main menu vertical position"
-msgstr "Aeon Tajo 主菜单垂直位置"
+msgstr "Position verticale du menu principal d'Aeon Tajo"
 
 msgctxt "#31914"
 msgid "Change the vertical position of the main menu. Default is centered on screen."
-msgstr "更改主菜单的垂直位置。默认值在屏幕上居中。"
+msgstr "Modifier la position verticale du menu principal. La valeur par défaut est centrée sur l'écran."
 
 msgctxt "#31915"
 msgid "Navigation style for horizontal lists"
-msgstr "水平列表的导航样式"
+msgstr "Style de navigation pour les listes horizontales"
 
 msgctxt "#31916"
 msgid "Change the way horizontal lists scroll in Aeon Tajo. Default will scroll lists in a cycle. \"Fixed\" are lists with a beginning and end."
-msgstr "改变水平列表在 Aeon Tajo 滚动的方式。默认为循环滚动列表。“固定”是有起止位置的列表。"
+msgstr "Changer la façon dont les listes horizontales se déroulent dans Aeon Tajo. Par défaut, le déroulement se fait en cycle. \"Figé\" sont pour les listes avec un début et une fin."
 
 msgctxt "#31917"
 msgid "When enabled text scrolls automatically. When disabled manual scrolling is required. Note that most textboxes don't have a manual button."
@@ -1304,182 +1300,180 @@ msgstr ""
 
 msgctxt "#31918"
 msgid "Projects the current playing video on the background behind the panels."
-msgstr "将当前播放的视频投影到面板后面的背景上。"
+msgstr "Projette la vidéo en cours de lecture sur le fond d'écran, derrière les panneaux."
 
 msgctxt "#31919"
 msgid "Projects the visualisation on the background behind the panels when music is played."
-msgstr "当播放音乐时，将视觉化投影到面板后面的背景上。"
+msgstr "Projette la visualisation sur le fond d'écran, derrière les panneaux quand la musique est lue."
 
 msgctxt "#31920"
 msgid "Displays a widget on the Home screen with media information when music is playing."
-msgstr "播放音乐时，在主屏幕上显示包含媒体信息的小部件。"
+msgstr "Affiche un widget sur l'écran principal avec les infos du média quand la musique est lue."
 
 msgctxt "#31921"
 msgid "Displays a widget on the Home screen with media information when a movie or episode is playing."
-msgstr "播放电影或插曲时，在主屏幕上显示包含媒体信息的小部件。"
+msgstr "Affiche un widget sur l'écran principal avec les infos du média quand un film ou un épisode est lu."
 
 msgctxt "#31922"
 msgid "This enables custom genre backgrounds when browsing through the videolibrary's genre node. Filenames should match the genre label. Extension must be .jpg."
-msgstr "在浏览视频资料库的类型节点时，这将启用自定义类型背景。文件名应与类型标签匹配。扩展名必须是.jpg。"
+msgstr "Cela active les arrière-plans des genres personnalisés lors de la navigation dans l'arborescence des genres de la vidéothèque. Les noms de fichiers doivent correspondre à l'étiquette de genre. L'extension doit être .jpg."
 
 msgctxt "#31923"
 msgid "Set a default select action to enable this item."
-msgstr "设置默认选择操作以启用此项目。"
+msgstr "Définir une action par défaut pour activer cet élément."
 
 msgctxt "#31924"
 msgid "This enables custom genre backgrounds when browsing through the musiclibrary's genre node. Filenames should match the genre label. Extension must be .jpg."
-msgstr "当浏览音乐资料库的流派节点时，这将启用自定义流派背景。文件名应与流派标签匹配。扩展名必须是.jpg。"
+msgstr "Ceci active les fonds d'écrans personnalisés par style, quand on se déplace dans les styles de la bibliothèque musicale. Les noms de fichier doivent correspondre au label du style. L'extension de fichier doit être .jpg."
 
 msgctxt "#31925"
 msgid "Pick one of the preset backgrounds or set your own images as the menu items background."
-msgstr "拾取其中一个预设背景或将您自己的图像设置为菜单项背景。"
+msgstr "Choisir un des fonds d'écran prédéfinis ou définir vos propres images comme fond d'écran des éléments du menu."
 
 msgctxt "#31926"
 msgid "Select add-ons, playlists or favourites. Choose 'Custom' for any of Kodi's built-in functions. (http://kodi.wiki/?title=List_of_Built_In_Functions)"
-msgstr "选择插件、播放列表或收藏夹。为 Kodi 的任何内置功能选择“自定义”。(http://kodi.wiki/?title=List_of_Built_In_Functions)"
+msgstr "Sélectionner des modules complémentaires, des listes de lecture ou des favoris. Choisir \"Personnalisé\" pour l'une des fonctions intégrées de Kodi. (http://kodi.wiki/?title=List_of_Built_In_Functions)"
 
 msgctxt "#31927"
 msgid "Resets all above values to their defaults."
-msgstr "将以上所有值重置为默认值。"
+msgstr "Réinitialiser toutes les valeurs ci-dessus aux valeurs par défaut."
 
 msgctxt "#31928"
 msgid "Aeon Tajo main menu layout"
-msgstr "Aeon Tajo 主菜单布局"
+msgstr "Mise en page du menu principal d'Aeon Tajo"
 
 msgctxt "#31929"
 msgid "This setting defines how much items will be visible on the main menu. Options are 3 items or 5 items."
-msgstr "此设置定义主菜单上会看到多少项。选项是3项或5项。"
+msgstr "Ce réglage définit combien d'éléments seront visibles dans le menu principal : 3 ou 5."
 
 msgctxt "#31930"
 msgid "Choose a widget to display on the Home screen to have easy access to content from the library."
-msgstr "选择要显示在主屏幕上的小部件，以便轻松访问库中的内容。"
+msgstr "Choisir le widget à afficher sur l'écran principal afin d'avoir un accès rapide au contenu de la bibliothèque."
 
 msgctxt "#31931"
 msgid "Video plot preference"
-msgstr "视频简介偏好"
+msgstr "Préférence pour le résumé de la vidéo"
 
 msgctxt "#31932"
 msgid "Show plot outline in the library views and full plot in the video information dialog or vice versa. Falls back to full plot if no outline is available."
-msgstr "在资料库视图中显示剧情简介，在视频信息对话框中显示完整剧情，反之亦然。如果没有可用的简介，则回退到完整的剧情。"
+msgstr "Afficher le résumé court dans les vues de la bibliothèque et le résumé complet dans la fenêtre d'information ou vice versa. Le résumé complet sera utilisé si aucun résumé court n'est disponible."
 
 msgctxt "#31933"
 msgid "Select an item to display on the left top of the main menu"
-msgstr "选择要显示在主菜单左上方的项目"
+msgstr "Sélectionner un élément à afficher en haut à gauche du menu principal"
 
-# empty string with id 31934
 msgctxt "#31935"
 msgid "Switch places with another menu item. Opens a dialog with a list of menu items to choose from."
-msgstr "与另一个菜单项互换位置。打开一个对话框，其中包含可供选择的菜单项列表。"
+msgstr "Changer de place avec un autre élément du menu. Ouvre une boîte de dialogue avec une liste des éléments du menu disponible."
 
-# empty string with id 31936
 msgctxt "#31937"
 msgid "Show the RSS feed on the bottom or top of the screen, depending on main menu position. Enabling this setting makes the submenu permanently visible."
-msgstr "在屏幕底部或顶部显示 RSS 源，具体取决于主菜单位置。启用此设置使子菜单永久可见。"
+msgstr "Affiche le fil RSS en bas ou en haut de l'écran, selon la position du menu principal. Activer cette option rend les sous-menus visibles de manière permanente."
 
 msgctxt "#31938"
 msgid "Enables extra information in the TV show library, like TV show status, next / latest episode, etc. Depends on TV Show Next Aired add-on."
-msgstr "在剧集资料库中启用额外信息，如剧集状态、下一集/最新一集等。依赖剧集的 Next Aired 插件。"
+msgstr "Activer des informations supplémentaires de la bibliothèque des séries TV, comme le statut de la série, le prochain / dernier épisode, etc. Dépend de l'extension TV Show Next Aired."
 
 msgctxt "#31939"
 msgid "Hide Infopanel on scrolling"
-msgstr "滚动时隐藏信息面板"
+msgstr "Cacher le panneau d'info durant la navigation"
 
 msgctxt "#31940"
 msgid "Hides the infopanel for Showcase and Landscape view (if activated) while scrolling through the library. Set the amount of seconds to wait for the infopanel to appear when scrolling is stopped."
-msgstr "在资料库滚动浏览时，隐藏“展示”和“横向”视图（如果已激活）的信息面板。设置停止滚动时信息面板延迟出现的秒数。"
+msgstr "Cache le panneau d'info pour les vues Vitrine et Paysage (si activé) durant la navigation dans la bibliothèque. Définit le nombre de secondes à attendre pour faire apparaître le panneau d'info lorsque la navigation a stoppée."
 
 msgctxt "#31941"
 msgid "Kiosk mode"
-msgstr "自助终端模式"
+msgstr "Mode kiosque"
 
 msgctxt "#31942"
 msgid "Disables the slide out menu (media menu) in the library as well as certain buttons in the media information dialogs. (Requires restart to take effect)"
-msgstr "禁用资料库中的滑出菜单（媒体菜单）以及媒体信息对话框中的某些按钮。（需要重新启动以生效）"
+msgstr "Désactive le menu latéral coulissant (menu Média) dans la bibliothèque ainsi que certains boutons dans les fenêtre d'informations média. (Requière un redémarrage pour prendre effet)."
 
 msgctxt "#31943"
 msgid "Watched status indicator"
-msgstr "已观看状态指示"
+msgstr "Indicateur du statut Vu"
 
 msgctxt "#31944"
 msgid "Choose which overlays to show on thumbs in icon based views. Note that the \"Resume\" flag takes precedent over any watched status."
-msgstr "选择基于图标视图中的缩略图上要显示的叠加层。请注意“恢复播放”标志比其他任何观看的状态优先显示。"
+msgstr "Permet de choisir quelle information afficher sur les miniatures pour les vues basées sur des images. Le drap \"Reprendre\" sera prioritaire sur n'importe quel autre drap \"Vu\"."
 
 msgctxt "#31945"
 msgid "This toggles the layout of the List view. Default is a 7 item layout with extended info, \"Slim List\" is a 14 item, more basic layout"
-msgstr "这将切换列表视图的布局。默认为7个项目的布局，带有扩展信息，“细列表”为14个项目，更基本的布局"
+msgstr "Ceci permet de modifier la disposition de la vue Liste. Par défaut, 7 éléments avec des infos étendues sont affichés, la \"Liste fine\" affiche 14 éléments avec moins d'informations"
 
 msgctxt "#31950"
 msgid "WEATHER"
-msgstr "天气"
+msgstr "MÉTÉO"
 
 msgctxt "#31951"
 msgid "PICTURES"
-msgstr "图片"
+msgstr "IMAGES"
 
 msgctxt "#31952"
 msgid "LIVE TV"
-msgstr "直播电视"
+msgstr "TV"
 
 msgctxt "#31953"
 msgid "VIDEOS"
-msgstr "视频"
+msgstr "VIDÉOS"
 
 msgctxt "#31954"
 msgid "MOVIES"
-msgstr "电影"
+msgstr "FILMS"
 
 msgctxt "#31955"
 msgid "TV SHOWS"
-msgstr "剧集"
+msgstr "SÉRIES TV"
 
 msgctxt "#31956"
 msgid "MUSIC"
-msgstr "音乐"
+msgstr "MUSIQUE"
 
 msgctxt "#31957"
 msgid "APPS"
-msgstr "应用"
+msgstr "APPS"
 
 msgctxt "#31958"
 msgid "PLAY DISC"
-msgstr "播放光盘"
+msgstr "LIRE DISQUE"
 
 msgctxt "#31959"
 msgid "SYSTEM"
-msgstr "系统"
+msgstr "SYSTÈME"
 
 msgctxt "#31960"
 msgid "CONCERTS"
-msgstr "音乐会"
+msgstr "CONCERTS"
 
 msgctxt "#31961"
 msgid "Hide ratings in list views"
-msgstr "在列表视图中隐藏评分"
+msgstr "Masque les notations pour les vues en liste"
 
 msgctxt "#31962"
 msgid "This toggles the visibility of ratings in views of type List, LowList and TriPanel, except if sorted by rating."
-msgstr "这将显示或隐藏“列表”、“低列表”和“三面板”视图中的评级，除非按评级排序。"
+msgstr "Bascule la visibilité des notations dans les vues Liste, Liste basse et Tri panneau, sauf si le tri est fait par évaluation."
 
 # empty string with id 31963
 msgctxt "#31964"
 msgid "NoTo"
-msgstr "没有"
+msgstr "NoTo"
 
 msgctxt "#31965"
 msgid "Setup main menu"
-msgstr "设置主菜单"
+msgstr "Configurer le menu principal"
 
 msgctxt "#31966"
 msgid "Customize the main menu with widgets, backgrounds, submenus and statistics. Add your own custom main menu items."
-msgstr "使用小部件、背景、子菜单和统计数据自定义主菜单。添加您自己的自定义主菜单项。"
+msgstr "Personnaliser le menu principal avec des widgets, des arrière-plans, des sous-menus et des statistiques. Ajouter vos propres éléments de menu principal personnalisés."
 
 msgctxt "#31967"
 msgid "Skin addons"
-msgstr "皮肤插件"
+msgstr "Addons du skin"
 
 msgctxt "#31968"
 msgid "Addons used to enhance Aeon Tajo."
-msgstr "用于增强 Aeon Tajo 的插件。"
+msgstr "Addons utilisés pour améliorer Aeon Tajo."
 
 msgctxt "#31969"
 msgid "Skin options"
@@ -1487,7 +1481,7 @@ msgstr ""
 
 msgctxt "#31970"
 msgid "Setup of melodies, the way of showing widgets, themes and cast for movies/TV shows and other options."
-msgstr "旋律的设置、小部件的显示方式、电影/剧集的主题曲和演员以及其他选项。"
+msgstr "Configuration des mélodies, mode d'affichage des widgets, thèmes et distribution pour les films/séries TV et autres options."
 
 msgctxt "#31971"
 msgid "Colour of selected items"
@@ -1495,115 +1489,115 @@ msgstr ""
 
 msgctxt "#31972"
 msgid "Youtube"
-msgstr "Youtube"
+msgstr "YouTube"
 
 msgctxt "#31973"
 msgid "Down for more"
-msgstr "下滑查看更多"
+msgstr "Descendre pour plus"
 
 msgctxt "#31974"
 msgid "More movies featuring"
-msgstr "主演更多电影"
+msgstr "Plus de films du genre"
 
 msgctxt "#31975"
 msgid "More TV shows featuring"
-msgstr "主演更多剧集"
+msgstr "Plus de séries TV mettant en vedette"
 
 msgctxt "#31976"
 msgid "Image gallery"
-msgstr "图片库"
+msgstr "Galerie d'images"
 
 msgctxt "#31977"
 msgid "Years old"
-msgstr "岁"
+msgstr "Années"
 
 msgctxt "#31978"
 msgid "Click for more"
-msgstr "点击查看更多"
+msgstr "Cliquer pour plus d'infos"
 
 msgctxt "#31979"
 msgid "Left for more"
-msgstr "左滑查看更多"
+msgstr "Gauche pour plus"
 
 msgctxt "#31980"
 msgid "Right for more"
-msgstr "右滑查看更多"
+msgstr "Droite pour plus"
 
 msgctxt "#31981"
 msgid "Premiered"
-msgstr "首映"
+msgstr "1ère diffusion"
 
 msgctxt "#31982"
 msgid "Budget"
-msgstr "预算"
+msgstr "Budget"
 
 msgctxt "#31983"
 msgid "Revenue"
-msgstr "收入"
+msgstr "Revenu"
 
 msgctxt "#31984"
 msgid "Awards"
-msgstr "奖项"
+msgstr "Récompenses"
 
 msgctxt "#31985"
 msgid "Trending Movies"
-msgstr "热门电影"
+msgstr "Films à la mode"
 
 msgctxt "#31986"
 msgid "Upcoming Movies"
-msgstr "即将上映的电影"
+msgstr "Prochainement"
 
 msgctxt "#31987"
 msgid "Now Playing Movies"
-msgstr "现在播放的电影"
+msgstr "Films en cours de lecture"
 
 msgctxt "#31988"
 msgid "Top Rated Movies"
-msgstr "高分电影"
+msgstr "Films les mieux notés"
 
 msgctxt "#31989"
 msgid "Popular Movies"
-msgstr "流行电影"
+msgstr "Films populaires"
 
 msgctxt "#31990"
 msgid "Discover Movies"
-msgstr "探索电影"
+msgstr "Découvrir les films"
 
 msgctxt "#31991"
 msgid "Trending Shows"
-msgstr "热门剧集"
+msgstr "Séries TV les plus regardées"
 
 msgctxt "#31992"
 msgid "Top Rated Shows"
-msgstr "高分剧集"
+msgstr "Séries les mieux notées"
 
 msgctxt "#31993"
 msgid "Popular Shows"
-msgstr "流行剧集"
+msgstr "Séries populaires"
 
 msgctxt "#31994"
 msgid "Discover Shows"
-msgstr "探索剧集"
+msgstr "Découvrir les séries"
 
 msgctxt "#31995"
 msgid "3D view"
-msgstr "3D视图"
+msgstr "Vue 3D"
 
 msgctxt "#31996"
 msgid "Extended view"
-msgstr "扩展视图"
+msgstr "Vue étendue"
 
 msgctxt "#31997"
 msgid "Simple view"
-msgstr "简单视图"
+msgstr "Vue simplifiée"
 
 msgctxt "#31998"
 msgid "Classic lyrics"
-msgstr "经典歌词"
+msgstr "Paroles classiques"
 
 msgctxt "#31999"
 msgid "Screensaver Netflix style in media views"
-msgstr "媒体视图中的屏幕保护程序使用 Netflix 样式"
+msgstr "Économiseur d'écran de style Netflix dans les vues multimédias"
 
 msgctxt "#32000"
 msgid "When in idle state for two minutes within a media view, a fullscreen slideshow of movies, TV shows, or artists' fanarts will be displayed, according to the section being browsed."
@@ -1611,7 +1605,7 @@ msgstr ""
 
 msgctxt "#32001"
 msgid "Play automatically movie trailers in video views"
-msgstr "在视频视图中自动播放电影预告片"
+msgstr "Lire automatiquement les bandes annonces de films dans les vues vidéo"
 
 msgctxt "#32002"
 msgid "When you browse the video views and pause on a movie or TV show for a few seconds, the trailer automatically plays in a window."
@@ -1619,15 +1613,15 @@ msgstr ""
 
 msgctxt "#32003"
 msgid "All devices"
-msgstr "所有设备"
+msgstr "Tous les dispositifs"
 
 msgctxt "#32004"
 msgid "Powerful devices"
-msgstr "高性能设备"
+msgstr "Appareils puissants"
 
 msgctxt "#32005"
 msgid "Most powerful devices"
-msgstr "最高性能设备"
+msgstr "Appareils les plus puissants"
 
 msgctxt "#32006"
 msgid "Delay 5 seconds"
@@ -1639,15 +1633,15 @@ msgstr ""
 
 msgctxt "#32008"
 msgid "Info view 2"
-msgstr "信息视图 2"
+msgstr "Vue d'informations 2"
 
 msgctxt "#32009"
 msgid "Info view 1"
-msgstr "信息视图 1"
+msgstr "Vue d'informations 1"
 
 msgctxt "#32010"
 msgid "Play automatically songs while browsing music"
-msgstr "浏览音乐时自动播放歌曲"
+msgstr "Lire automatiquement les chansons tout en parcourant la musique"
 
 msgctxt "#32011"
 msgid "Enable automatic playback of songs from the current artist or album as background music while browsing music views."
@@ -1667,7 +1661,7 @@ msgstr ""
 
 msgctxt "#32015"
 msgid "Show only background"
-msgstr "仅显示背景"
+msgstr "Afficher uniquement l'arrière-plan"
 
 msgctxt "#32016"
 msgid "TheMovieDb Helper provides data to display online ratings and additional information for movies and TV shows"
@@ -1675,7 +1669,7 @@ msgstr ""
 
 msgctxt "#32017"
 msgid "Show online ratings for movies and TV shows"
-msgstr "显示电影和剧集的在线评分"
+msgstr "Afficher les classements en ligne pour les films et les séries TV"
 
 msgctxt "#32018"
 msgid "You have to restart Kodi for this option to take effect once the option has been activated. TMDb and Trakt should work out of the box. Metacritic and Rottentomatoes ratings require an OMDb API key. Get an OMDb API Key at http://www.omdbapi.com/apikey.aspx and afterward input the OMDb API Key into the TheMovieDb Helper settings."
@@ -1683,7 +1677,7 @@ msgstr ""
 
 msgctxt "#32019"
 msgid "Resource image addon for displaying coloured studio icons throughout the skin."
-msgstr "资源图像插件用于在整个皮肤中显示彩色的工作室图标。"
+msgstr "Addon Resource image pour afficher des icônes de studio colorées sur tout le skin."
 
 msgctxt "#32020"
 msgid "Show colour icons for audio/video information"
@@ -1691,7 +1685,7 @@ msgstr ""
 
 msgctxt "#32021"
 msgid "Show extra features for movies and TV shows"
-msgstr "为电影和剧集显示附加内容"
+msgstr "Afficher des fonctionnalités supplémentaires pour les films et les séries TV"
 
 msgctxt "#32022"
 msgid "Display the additional features (media files) placed by the user in the 'extras' folder for a movie or TV show. Remember to modify your advancedsettings.xml file if needed."
@@ -1699,7 +1693,7 @@ msgstr ""
 
 msgctxt "#32023"
 msgid "Show extras"
-msgstr "显示附加"
+msgstr "Afficher les suppléments"
 
 msgctxt "#32024"
 msgid "Enable shifting colours effect in the default Aeon Tajo's background"
@@ -1711,39 +1705,39 @@ msgstr ""
 
 msgctxt "#32026"
 msgid "Name of user's additional features folder (if different to 'extras')"
-msgstr "命名用户的附加内容文件夹（如果不同于“extras”）"
+msgstr "Nom du dossier des fonctionnalités supplémentaires de l'utilisateur (si différent de 'extras')"
 
 msgctxt "#32027"
 msgid "Select image to show as background instead of default"
-msgstr "选择要取代默认背景显示的图像"
+msgstr "Sélectionner l'image à afficher en arrière-plan au lieu de l'image par défaut"
 
 msgctxt "#32028"
 msgid "Browse for image"
-msgstr "浏览图片"
+msgstr "Rechercher une image"
 
 msgctxt "#32029"
 msgid "Show Music videos"
-msgstr "显示音乐电视"
+msgstr "Afficher les clips vidéos"
 
 msgctxt "#32030"
 msgid "Show Albums"
-msgstr "显示专辑"
+msgstr "Afficher les albums"
 
 msgctxt "#32031"
 msgid "Show Songs"
-msgstr "显示歌曲"
+msgstr "Afficher les titres"
 
 msgctxt "#32032"
 msgid "Blurred album image as background"
-msgstr "模糊专辑图像作为背景"
+msgstr "Image floutée de l'album en arrière-plan"
 
 msgctxt "#32033"
 msgid "Browse for path"
-msgstr "浏览路径"
+msgstr "Parcourir le chemin"
 
 msgctxt "#32034"
 msgid "Show extra features for music albums"
-msgstr "显示音乐专辑附加内容"
+msgstr "Afficher les fonctionnalités supplémentaires pour les albums de musique"
 
 msgctxt "#32035"
 msgid "Display the additional features (media files) placed by the user in the 'extras' folder for a music album. Remember to modify your advancedsettings.xml file if needed."
@@ -1755,11 +1749,11 @@ msgstr ""
 
 msgctxt "#32037"
 msgid "Shows the normal poster (poster.jpg) in movies and TV shows views."
-msgstr "在电影和剧集视图中显示普通海报（poster.jpg）。"
+msgstr "Affiche l'affiche normale (poster.jpg) dans les vues de films et de séries TV."
 
 msgctxt "#32038"
 msgid "Shows the animated poster (animatedposter.gif) in movies and TV shows views."
-msgstr "在电影和剧集视图中显示动态海报（animatedposter.gif）。"
+msgstr "Affiche l'affiche animée (animatedposter.gif) dans les vues de films et de séries TV."
 
 msgctxt "#32039"
 msgid "Shows the available extra posters (poster1.jpg, poster2.jpg, poster3.jpg...) in movies and TV shows views."
@@ -1767,11 +1761,11 @@ msgstr ""
 
 msgctxt "#32040"
 msgid "Thanks for using Aeon Tajo, I really hope you enjoy it! Creating and maintaining a skin for Kodi is very hard and requires hundreds of hours of work. If you like Aeon Tajo and you’re willing to support it, you’ll get:[CR][CR] [B]***[/B] Exclusive access to hidden Aeon Tajo’s features, such as browsing and playing of the user’s extra content directly from media views, and some more. [CR] [B]***[/B] Frequent updates of Aeon Tajo, containing new features and bug fixes. [CR] [B]***[/B] Videos, media packs and articles with detailed instructions to take advantage of the many features of Aeon Tajo to the full. [CR][CR]For more information, visit [B][COLOR=themecolor]patreon.com[/B][/COLOR] and search for the creator [COLOR=themecolor][B]Aeon Tajo[/B][/COLOR], or go to [COLOR=themecolor][B]patreon.com/aeontajo[/B][/COLOR]. Thanks!"
-msgstr "感谢使用 Aeon Tajo，希望你喜欢它！为 Kodi 创建和维护皮肤费时费力。如果你喜欢 Aeon Tajo 并愿意支持它，你将获得：[CR][CR][B]***[/B]专享访问 Aeon Tajo 的隐藏功能，例如直接从媒体视图浏览和播放用户的额外内容，等等。[CR][B]***[/B]Aeon Tajo 的频繁更新，包含新功能和错误修复。[CR][B]***[/B]视频、媒体包和文章，其中包含详细说明，帮你充分利用 Aeon Tajo 的功能。[CR][CR]更多信息，请访问 [B][COLOR=themecolor]patreon.com[/B][/COLOR] 并搜索创建者 [COLOR=themescolor][B]Aeon Tajo[/B][/COLOR]，或访问 [COLOR=themecolor][B]patreon.com/aeontajo[/B][COLOR]。谢谢！"
+msgstr "Merci d'utiliser Aeon Tajo, j'espère vraiment que vous l'apprécierez ! Créer et maintenir un skin pour Kodi est très difficile et nécessite des centaines d'heures de travail. Si vous aimez Aeon Tajo et que vous êtes prêt à le soutenir, vous obtiendrez :[CR][CR] [B]***[/B] Un accès exclusif aux fonctionnalités cachées d'Aeon Tajo, telles que la navigation et la lecture de contenu supplémentaire de l'utilisateur directement à partir des vues multimédias, et bien plus encore. [CR] [B]***[/B] Mises à jour fréquentes d'Aeon Tajo, contenant de nouvelles fonctionnalités et des corrections de bugs. [CR] [B]***[/B] Vidéos, packs média et articles avec des instructions détaillées pour profiter pleinement des nombreuses fonctionnalités d'Aeon Tajo. [CR][CR]Pour plus d'informations, visitez [B][COLOR=themecolor]patreon.com[/B][/COLOR] et recherchez le créateur [COLOR=themecolor][B]Aeon Tajo[/B][ /COLOR], ou allez sur [COLOR=themecolor][B]patreon.com/aeontajo[/B][/COLOR]. Merci !"
 
 msgctxt "#32041"
 msgid "Blurred album image as background in music visualisation screen"
-msgstr "模糊专辑图像作为音乐可视化屏幕中的背景"
+msgstr "Image floutée de l'album comme arrière-plan dans l'écran de visualisation de la musique"
 
 msgctxt "#32042"
 msgid "Hide watched mark in video views"
@@ -1779,23 +1773,23 @@ msgstr ""
 
 msgctxt "#32043"
 msgid "Disclaimer: Aeon Tajo does not provide any media content or sources. Users must provide their own content. Support will not be provided for any 'builds' nor online addons that offer copyrighted content."
-msgstr "免责声明：Aeon Tajo 不提供任何媒体内容或来源。用户必须提供自己的内容。不会为提供受版权保护内容的任何“构建”或在线插件提供支持。"
+msgstr "Avis de non-responsabilité : Aeon Tajo ne fournit aucun contenu ou source multimédia. Les utilisateurs doivent fournir leur propre contenu. Aucune assistance ne sera fournie pour les \"builds\" ou les addons en ligne proposant du contenu protégé par des droits d'auteur."
 
 msgctxt "#32044"
 msgid "Change to "
-msgstr "变更为 "
+msgstr "Passer à "
 
 msgctxt "#32045"
 msgid "Remember that you should adapt your advancedsetting.xml file to reflect this change, so as to prevent your extras content to be added inadvertently to the Kodi library."
-msgstr "记得应该调整 advancedsetting.xml 文件以反映此更改，从而防止意外将您的附加内容添加到 Kodi 资料库中。"
+msgstr "N'oubliez pas que vous devez adapter votre fichier advancedsetting.xml pour refléter ce changement, afin d'éviter que votre contenu supplémentaire ne soit ajouté par inadvertance à la bibliothèque Kodi."
 
 msgctxt "#32046"
 msgid "Filmstrip"
-msgstr "电影胶片"
+msgstr "Filmstrip"
 
 msgctxt "#32047"
 msgid "Select + Right Stick"
-msgstr "选择 + 右摇杆"
+msgstr "Sélectionner + Joystick droit"
 
 msgctxt "#32048"
 msgid "Vertical Home menu"
@@ -2091,193 +2085,144 @@ msgstr ""
 
 #~ msgctxt "#31029"
 #~ msgid "Recent movies"
-#~ msgstr "最近电影"
+#~ msgstr "Films récents"
 
 #~ msgctxt "#31030"
 #~ msgid "Recent episodes"
-#~ msgstr "最近剧集"
+#~ msgstr "Épisodes récents"
 
 #~ msgctxt "#31031"
 #~ msgid "Random movies"
-#~ msgstr "随机电影"
+#~ msgstr "Suggestions de films"
 
 #~ msgctxt "#31032"
 #~ msgid "Recommended movies"
-#~ msgstr "推荐电影"
+#~ msgstr "Films recommandés"
 
 #~ msgctxt "#31033"
 #~ msgid "Random episodes"
-#~ msgstr "随机剧集"
+#~ msgstr "Suggestions d'épisodes"
 
 #~ msgctxt "#31034"
 #~ msgid "Recommended episodes"
-#~ msgstr "推荐剧集"
+#~ msgstr "Épisode conseillé"
 
 #~ msgctxt "#31035"
 #~ msgid "Random songs"
-#~ msgstr "随机歌曲"
+#~ msgstr "Suggestion de chansons"
 
 #~ msgctxt "#31036"
 #~ msgid "Random albums"
-#~ msgstr "随机专辑"
+#~ msgstr "Suggestion d'albums"
 
 #~ msgctxt "#31037"
 #~ msgid "Recent albums"
-#~ msgstr "最近专辑"
+#~ msgstr "Albums récents"
 
 #~ msgctxt "#31038"
 #~ msgid "Recommended albums"
-#~ msgstr "推荐专辑"
+#~ msgstr "Albums recommandés"
 
 #~ msgctxt "#31149"
 #~ msgid "Online information from TMDb"
-#~ msgstr "来自 TMDb 的在线信息"
+#~ msgstr "Informations en ligne en provenance de TMDb"
 
 #~ msgctxt "#31180"
 #~ msgid "Play local 'theme.mp3' file when browsing Movies and TV shows"
-#~ msgstr "浏览电影和剧集时播放本地“theme.mp3”文件"
+#~ msgstr "Lire le fichier \"theme.mp3\" local lors de la navigation dans les films et les émissions de télévision"
 
 #~ msgctxt "#31252"
 #~ msgid "Always show widgets"
-#~ msgstr "始终显示小部件"
+#~ msgstr "Toujours afficher les widgets"
 
 #~ msgctxt "#31402"
 #~ msgid "Enable startup intro"
-#~ msgstr "启用启动信息"
+#~ msgstr "Activer l'intro de démarrage"
 
 #~ msgctxt "#31917"
 #~ msgid "When enabled text scrolls automatically. When disabled manual scrolling is required. Note that not every textbox has a manual button."
-#~ msgstr "启用后，文本会自动滚动。禁用时，需要手动滚动。请注意，并不是每个文本框都有手动按钮。"
+#~ msgstr "Quand activé, le texte se déroule automatiquement. Quand désactivé, le déroulement manuel est nécessaire. Attention, certaines zones de texte n'ont pas de boutons manuel."
 
 #~ msgctxt "#31969"
 #~ msgid "General options"
-#~ msgstr "通用选项"
+#~ msgstr "Options générales"
 
 #~ msgctxt "#31971"
 #~ msgid "Color for items selected"
-#~ msgstr "选定项目的颜色"
+#~ msgstr "Couleur des éléments sélectionnés"
 
 #~ msgctxt "#32000"
 #~ msgid "Displays a fullscreen slideshow of movies, TV shows or artists' fanarts (depending on the section the user is browsing) when 2 minutes go by in idle state inside a media view"
-#~ msgstr "在媒体视图中空闲2分钟后，显示电影、剧集或歌手同人画（取决于用户正在浏览的部分）的全屏幻灯片"
+#~ msgstr "Affiche un diaporama plein écran de films, de séries TV ou de fanarts d'artistes (selon la section que l'utilisateur parcourt) lorsque 2 minutes s'écoulent en mode veille dans une vue multimédia"
 
 #~ msgctxt "#32002"
 #~ msgid "Plays the movie trailer automatically in a window after some seconds when browsing through movie views"
-#~ msgstr "浏览电影视图时，几秒钟后自动在窗口中播放电影预告片"
+#~ msgstr "Lit automatiquement la bande-annonce du film dans une fenêtre après quelques secondes lors de la navigation dans les vues du film"
 
 #~ msgctxt "#32006"
 #~ msgid " - Delay 5 seconds"
-#~ msgstr " - 延时5秒"
+#~ msgstr " - Délai 5 secondes"
 
 #~ msgctxt "#32007"
 #~ msgid " - Delay 12 seconds"
-#~ msgstr " - 延时12秒"
+#~ msgstr " - Délai 12 secondes"
 
 #~ msgctxt "#32011"
 #~ msgid "Plays automatically songs belonging to the current artist or album when browsing through music views"
-#~ msgstr "浏览音乐视图时，自动播放属于当前艺术家或专辑的歌曲"
+#~ msgstr "Lit automatiquement les chansons appartenant à l'artiste ou à l'album actuel lorsque vous parcourez les vues musicales"
 
 #~ msgctxt "#32012"
 #~ msgid "Set path to user's home music folder"
-#~ msgstr "设置用户的主要音乐文件夹的路径"
+#~ msgstr "Définir le chemin d'accès au dossier de musique d'accueil de l'utilisateur"
 
 #~ msgctxt "#32013"
 #~ msgid "Clear user's path (back to default)"
-#~ msgstr "清除用户的路径（恢复默认值）"
+#~ msgstr "Effacer le chemin de l'utilisateur (retour aux valeurs par défaut)"
 
 #~ msgctxt "#32014"
 #~ msgid "Play melodies while in Home Screen"
-#~ msgstr "在主屏幕中播放旋律"
+#~ msgstr "Lire les mélodies depuis l'écran d'accueil"
 
 #~ msgctxt "#32016"
 #~ msgid "TheMovieDb Helper provides data to display online ratings for movies and TV shows"
-#~ msgstr "TheMovieDb Helper 提供用于电影和剧集在线评分信息显示的数据"
+#~ msgstr "TheMovieDb Helper fournit des données pour afficher les classements en ligne des films et des séries TV"
 
 #~ msgctxt "#32018"
 #~ msgid "You may have to restart Kodi. TMDb and Trakt should work out of the box. Metacritic and Rottentomatoes ratings require an OMDb API key. Get an OMDb API Key at http://www.omdbapi.com/apikey.aspx then input the OMDb API Key into the TheMovieDb Helper settings."
-#~ msgstr "您可能必须重新启动 Kodi。TMDb 和 Trakt 可直接使用。Metacritic 和 Rottentomatoes 的评分需要 OMDb API 密钥。在 http://www.omdbapi.com/apikey.aspx 获取OMDb API 密钥，然后将 OMDb API 密钥输入 TheMovieDb Helper 插件设置。"
+#~ msgstr "Vous devrez peut-être redémarrer Kodi. TMDb et Trakt devraient fonctionner immédiatement. Les évaluations Metacritic et Rottentomatoes nécessitent une clé API OMDb. Obtenez une clé API OMDb sur http://www.omdbapi.com/apikey.aspx, puis saisissez la clé API OMDb dans les paramètres de TheMovieDb Helper."
 
 #~ msgctxt "#32020"
 #~ msgid "Display coloured icons"
-#~ msgstr "显示彩色图标"
+#~ msgstr "Afficher les icônes colorées"
 
 #~ msgctxt "#32022"
 #~ msgid "Show the additional features that the user put in the movie (or TV show) 'extras' folder. Don't forget to adapt your advancedsetting.xml file accordingly."
-#~ msgstr "显示用户放在电影（或剧集）“extras”文件夹中的附加内容。别忘了相应调整您的 advancedsetting.xml 文件。"
+#~ msgstr "Afficher les fonctionnalités supplémentaires que l'utilisateur a ajoutées au dossier \"Extras\" du film (ou de la série TV). Ne pas oublier d'adapter votre fichier advancedsetting.xml en conséquence."
 
 #~ msgctxt "#32024"
 #~ msgid "Enable shifting colours in home screen"
-#~ msgstr "在主屏幕中启用颜色切换"
+#~ msgstr "Activer les couleurs changeantes dans l'écran d'accueil"
 
 #~ msgctxt "#32025"
 #~ msgid "Enable shifting colours in home screen menu and in the default background."
-#~ msgstr "在主屏幕菜单和默认背景中启用颜色切换。"
+#~ msgstr "Activer les couleurs changeantes dans le menu de l'écran d'accueil et dans l'arrière-plan par défaut."
 
 #~ msgctxt "#32035"
 #~ msgid "Show the additional features that the user put in the music album 'extras' folder. Don't forget to adapt your advancedsetting.xml file accordingly."
-#~ msgstr "显示用户放在音乐专辑“extras”文件夹中的附加内容。别忘了相应调整您的 advancedsetting.xml 文件。"
+#~ msgstr "Afficher les fonctionnalités supplémentaires que l'utilisateur a placées dans le dossier \"extras\" de l'album musical. N'oubliez pas d'adapter votre fichier advancedsetting.xml en conséquence."
 
 #~ msgctxt "#32036"
 #~ msgid "When browsing movies (and TV shows), plays automatically the file 'theme.mp3' if it exists in the movie folder."
-#~ msgstr "浏览电影（和剧集）时，自动播放电影文件夹中存在的“theme.mp3”文件。"
+#~ msgstr "Lorsque vous parcourez des films (et des séries TV), lit automatiquement le fichier 'theme.mp3' s'il existe dans le dossier du film."
 
 #~ msgctxt "#32039"
 #~ msgid "Shows all the extra posters (poster1.jpg, poster2.jpg, poster3.jpg...) in movies and TV shows views."
-#~ msgstr "在电影和剧集视图中显示所有附加海报（poster1.jpg、poster2.jpg、poster3.jpg…）。"
+#~ msgstr "Affiche toutes les affiches supplémentaires (poster1.jpg, poster2.jpg, poster3.jpg...) dans les vues de films et de séries TV."
 
 #~ msgctxt "#32042"
 #~ msgid "Hide watched icon in video views"
-#~ msgstr "视频视图隐藏已观看图标"
+#~ msgstr "Masquer l'icône Vu dans les vues vidéo"
 
 #~ msgctxt "#32040"
 #~ msgid "Thanks for using Aeon Tajo, I really hope you enjoy it! Creating and maintaining a skin for Kodi is quite hard and requires hundreds of hours of work (Aeon Tajo has over 60,000 lines of code and hundreds of images). Only a few can devote so much time; despite their earnest efforts, “real life”, that is, their family and their job, usually gets in their way. That is why many developers fail to finish their skins or can’t keep them up to date, so they stop working on the newest Kodi versions.[CR][CR]I think it would be a pity if Aeon Tajo disappeared too. If you want to help avoid it and let this skin keep improving, and if you would also like to enjoy some extra options, visit [B][COLOR=themecolor]patreon.com[/B][/COLOR] and search for the creator [COLOR=themecolor][B]Aeon Tajo[/B][/COLOR], or go to [COLOR=themecolor][B]patreon.com/aeontajo[/B][/COLOR] to get more information. Thank you very much![CR][CR]Manuel"
-#~ msgstr "感谢使用 Aeon Tajo，真心希望得到你的喜爱！创建和维护一款 Kodi 皮肤是耗时费力的工作（Aeon Tajo 有超过6万行代码和数以百计的图片）。有条件投入这么多时间的人不多，再大的努力也会受“现实生活”，即家庭和工作的影响和限制。这就是为什么许多开发人员最终未能完成他们的皮肤，或者不能保持皮肤的更新，停止开发最新的 Kodi 版本。[CR][CR]我想，如果 Aeon Tajo 也消失了，那将是一个遗憾。如果你想帮助避免这样的结局，使皮肤保持更新，或者你还想偿式更多的选择，请访问 [B][COLOR=themecolor]patreon.com[/COLOR][/B] 并搜索创建者 [COLOR=themecolor][B]Aeon Tajo[/B][/COLOR]，或到 [COLOR=themecolor][B]patreon.com/aeontajo[/B][/COLOR] 获取更多信息。非常感谢！[CR][CR]Manuel"
-
-#~ msgctxt "#31180"
-#~ msgid "Play local 'theme.mp3' file when browsing Movies and Tvshows"
-#~ msgstr "浏览电影和剧集时播放本地‘theme.mp3’文件"
-
-#~ msgctxt "#31434"
-#~ msgid "Check MP3 Theme checks whether the user has put a theme.mp3 file in the corresponding movie/tvshow folder to be played when browsing."
-#~ msgstr "MP3 主题曲检测会检查用户是否已将 Theme.MP3 文件放入相应的电影/剧集文件夹中，以便在浏览时播放。"
-
-# empty strings from id 31452 to 31472
-#~ msgctxt "#31473"
-#~ msgid "Embuary Helper provides the data to display the cast for movies and tvshows."
-#~ msgstr "Embuary Helper 提供了显示电影和剧集演员的相关数据。"
-
-#~ msgctxt "#31481"
-#~ msgid "Global Search makes possible to search among all the items (movies, tvshows, music, actors, etc.) in your collection."
-#~ msgstr "Global Search 使您可以从收藏中搜索所有项目（电影、剧集、音乐、演员等）。"
-
-#~ msgctxt "#31970"
-#~ msgid "Setup of melodies, the way of showing widgets, themes and cast for movies/tvshows and other options."
-#~ msgstr "旋律的设置，显示小部件的方式，电影/剧集的主题曲和演员以及其他选项。"
-
-#~ msgctxt "#31975"
-#~ msgid "More tv shows featuring"
-#~ msgstr "更多剧集"
-
-#~ msgctxt "#32000"
-#~ msgid "Displays a fullscreen slideshow of movies, tvshows or artists' fanarts (depending on the section the user is browsing) when 2 minutes go by in idle state inside a media view"
-#~ msgstr "在媒体视图中空闲2分钟时，显示电影、剧集或艺人同人画的全屏幻灯片（取决于用户正在浏览的部分）"
-
-#~ msgctxt "#32016"
-#~ msgid "TheMovieDb Helper provides data to display online ratings for movies and tvshows"
-#~ msgstr "ThemovieDB Helper 提供数据以显示电影和剧集的在线评分"
-
-#~ msgctxt "#32017"
-#~ msgid "Show online ratings for movies and tvshows"
-#~ msgstr "显示电影和剧集的在线评分"
-
-#~ msgctxt "#32020"
-#~ msgid "Display coloured icons."
-#~ msgstr "显示彩色图标。"
-
-#~ msgctxt "#32021"
-#~ msgid "Show extra features for movies."
-#~ msgstr "为电影显示附加功能。"
-
-#~ msgctxt "#32022"
-#~ msgid "Show in the context menu the extra features that exist in the movie's extra folder."
-#~ msgstr "在上下文菜单中显示电影的附加文件夹中存在的附加功能。"
+#~ msgstr "Merci d'utiliser Aeon Tajo, j'espère vraiment que vous l'apprécierez ! Créer et maintenir un skin pour Kodi est assez difficile et nécessite des centaines d'heures de travail (Aeon Tajo a plus de 60 000 lignes de code et des centaines d'images). Seuls quelques-uns peuvent consacrer autant de temps ; malgré leurs efforts acharnés, la « vraie vie », c'est-à-dire leur famille et leur travail, les gêne généralement. C'est pourquoi de nombreux développeurs ne parviennent pas à terminer leurs skins ou ne peuvent pas les tenir à jour, alors ils arrêtent de travailler sur les dernières versions de Kodi.[CR][CR]Je pense qu'il serait dommage qu'Aeon Tajo disparaisse aussi. Si vous voulez aider à l'éviter et laisser ce skin continuer à s'améliorer, et si vous souhaitez également profiter d'options supplémentaires, visitez [B][COLOR=themecolor]patreon.com[/B][/COLOR] et recherchez le créateur [COLOR=themecolor][B]Aeon Tajo[/B][/COLOR], ou rendez-vous sur [COLOR=themecolor][B]patreon.com/aeontajo[/B][/COLOR] pour obtenir plus d'informations. Merci beaucoup ![CR][CR]Manuel"
