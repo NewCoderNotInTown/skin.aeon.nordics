@@ -8,7 +8,7 @@
 			<include>FullscreenDimensions</include>
 			<texture background="true">blackk.jpg</texture>
 			<animation type="WindowClose" reversible="false">
-				<effect type="fade" start="100" end="0" time="500" tween="cubic" easing="in" />
+				<effect type="fade" start="100" end="0" time="500" tween="cubic" easing="in"/>
 			</animation>
 		</control>
 		<include>CommonBackground</include>
@@ -16,8 +16,10 @@
 			<visible>Skin.HasSetting(melodyForHome)</visible>
 			<scrolltime>350</scrolltime>
 			<autoscroll>true</autoscroll>
-			<itemlayout></itemlayout>
-			<focusedlayout></focusedlayout>
+			<itemlayout>
+			</itemlayout>
+			<focusedlayout>
+			</focusedlayout>
 			<content>$INFO[Skin.String(melodyPlaylist)]</content>
 		</control>
 		<control type="group" id="50">
@@ -175,10 +177,10 @@
 				<focusedlayout height="150" width="570">
 					<control type="group">
 						<animation type="Focus" reversible="false">
-							<effect type="zoom" center="auto" start="100" end="110" time="250" tween="sine" />
+							<effect type="zoom" center="auto" start="100" end="105" time="250" tween="sine"/>
 						</animation>
 						<animation type="UnFocus" reversible="false">
-							<effect type="zoom" center="auto" start="110" end="100" time="150" tween="sine" />
+							<effect type="zoom" center="auto" start="105" end="100" time="150" tween="sine"/>
 						</animation>
 						<control type="image">
 							<left>0</left>
@@ -304,7 +306,6 @@
 							<width>363</width>
 							<height>130</height>
 							<font>font30s</font>
-							<!-- <textcolor>grey2</textcolor> -->
 							<textcolor>white</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<selectedcolor>Skin.String(theme_text)</selectedcolor>
@@ -319,87 +320,87 @@
 						<label>31965</label>
 						<property name="description">31966</property>
 						<property name="numby">Tajo</property>
-						<onclick>ActivateWindow(1169)</onclick>
-						<icon />
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled)">ActivateWindow(1169)</onclick>
+						<icon/>
 					</item>
 					<item>
 						<label>31969</label>
 						<property name="description">31970</property>
 						<property name="numby">Tajo</property>
 						<onclick>ActivateWindow(10035)</onclick>
-						<icon />
+						<icon/>
 					</item>
 					<item>
 						<label>31967</label>
 						<property name="description">31968</property>
 						<property name="numby">Tajo</property>
-						<onclick condition="System.Platform.Windows + System.HasAddon(script.cu.lrclyrics) + !System.AddonIsEnabled(script.cu.lrclyrics)">RunScript(script.embuary.helper,action=toggleaddons,addonid=script.cu.lrclyrics,enable=true)</onclick>
-						<onclick>ActivateWindow(1170)</onclick>
-						<icon />
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled) + System.Platform.Windows + System.HasAddon(script.cu.lrclyrics) + !System.AddonIsEnabled(script.cu.lrclyrics)">RunScript(script.embuary.helper,action=toggleaddons,addonid=script.cu.lrclyrics,enable=true)</onclick>
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled)">ActivateWindow(1170)</onclick>
+						<icon/>
 					</item>
 					<item>
 						<label>14206</label>
 						<property name="description">31400</property>
 						<property name="numby">Interface</property>
 						<onclick condition="System.Platform.Windows + System.HasAddon(script.cu.lrclyrics) + !System.AddonIsEnabled(script.cu.lrclyrics)">RunScript(script.embuary.helper,action=toggleaddons,addonid=script.cu.lrclyrics,enable=true)</onclick>
-						<onclick>ActivateWindow(InterfaceSettings)</onclick>
-						<icon />
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled)">ActivateWindow(InterfaceSettings)</onclick>
+						<icon/>
 					</item>
 					<item>
 						<label>14200</label>
 						<property name="description">31414</property>
 						<property name="numby">Player</property>
-						<onclick>ActivateWindow(PlayerSettings)</onclick>
-						<icon />
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled)">ActivateWindow(PlayerSettings)</onclick>
+						<icon/>
 					</item>
 					<item>
 						<label>31502</label>
 						<property name="description">31409</property>
 						<property name="numby">LiveTV</property>
-						<onclick>ActivateWindow(PVRSettings)</onclick>
-						<icon />
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled)">ActivateWindow(PVRSettings)</onclick>
+						<icon/>
 					</item>
 					<item>
 						<label>14211</label>
 						<property name="description">31415</property>
 						<property name="numby">Media</property>
-						<onclick>ActivateWindow(MediaSettings)</onclick>
-						<icon />
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled)">ActivateWindow(MediaSettings)</onclick>
+						<icon/>
 					</item>
 					<item>
 						<label>$LOCALIZE[15016]</label>
 						<property name="description">32075</property>
 						<property name="numby">Games</property>
-						<onclick>ActivateWindow(GameSettings)</onclick>
-						<icon />
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled)">ActivateWindow(GameSettings)</onclick>
+						<icon/>
 					</item>
 					<item>
 						<label>13200</label>
 						<property name="description">31407</property>
 						<property name="numby">Profiles</property>
-						<onclick>ActivateWindow(Profiles)</onclick>
-						<icon />
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled)">ActivateWindow(Profiles)</onclick>
+						<icon/>
 					</item>
 					<item>
 						<label>14036</label>
 						<property name="description">31410</property>
 						<property name="numby">Services</property>
-						<onclick>ActivateWindow(ServiceSettings)</onclick>
-						<icon />
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled)">ActivateWindow(ServiceSettings)</onclick>
+						<icon/>
 					</item>
 					<item>
 						<label>13000</label>
 						<property name="description">31406</property>
 						<property name="numby">System</property>
-						<onclick>ActivateWindow(SystemSettings)</onclick>
-						<icon />
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled)">ActivateWindow(SystemSettings)</onclick>
+						<icon/>
 					</item>
 					<item>
 						<label>10511</label>
 						<property name="description">31405</property>
 						<property name="numby">Info</property>
-						<onclick>ActivateWindow(SystemInfo)</onclick>
-						<icon />
+						<onclick condition="!Skin.HasSetting(Kiosk.Enabled)">ActivateWindow(SystemInfo)</onclick>
+						<icon/>
 					</item>
 				</content>
 			</control>

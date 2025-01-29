@@ -57,60 +57,60 @@
 					<item id="1">
 						<label>31300</label>
 						<onclick>noop</onclick>
-						<icon />
+						<icon/>
 					</item>
 					<item id="2">
 						<label>31904</label>
 						<onclick>noop</onclick>
-						<icon />
+						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
 					</item>
 					<item id="3">
 						<label>31901</label>
 						<onclick>noop</onclick>
-						<icon />
+						<icon/>
 						<visible>!String.IsEmpty(Window.Property(36Hour.IsFetched))</visible>
 					</item>
 					<item id="4">
 						<label>31903</label>
 						<onclick>noop</onclick>
-						<icon />
+						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Weekend.IsFetched))</visible>
 					</item>
 					<item id="5">
 						<label>31902</label>
 						<onclick>noop</onclick>
-						<icon />
+						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Hourly.IsFetched))</visible>
 					</item>
 					<item id="6">
 						<label fallback="1448">$INFO[Window.Property(Map.1.Heading)]</label>
 						<onclick>noop</onclick>
-						<icon />
+						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Map.1.Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 					</item>
 					<item id="7">
 						<label fallback="387">$INFO[Window.Property(Map.2.Heading)]</label>
 						<onclick>noop</onclick>
-						<icon />
+						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Map.2.Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 					</item>
 					<item id="8">
 						<label fallback="1375">$INFO[Window.Property(Map.3.Heading)]</label>
 						<onclick>noop</onclick>
-						<icon />
+						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Map.3.Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 					</item>
 					<item id="9">
 						<label fallback="404">$INFO[Window.Property(Map.4.Heading)]</label>
 						<onclick>noop</onclick>
-						<icon />
+						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Map.4.Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 					</item>
 					<item id="10">
 						<label fallback="1376">$INFO[Window.Property(Map.5.Heading)]</label>
 						<onclick>noop</onclick>
-						<icon />
+						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Map.5.Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 					</item>
 				</content>
@@ -222,7 +222,7 @@
 						<align>center</align>
 						<font>font48</font>
 						<textoffsetx>15</textoffsetx>
-						<textcolor>$INFO[Skin.String(theme_text)]</textcolor>
+						<textcolor>Skin.String(theme_text)</textcolor>
 					</control>
 					<control type="grouplist">
 						<top>325</top>
@@ -272,7 +272,7 @@
 							<control type="button">
 								<left>325</left>
 								<label>[COLOR $INFO[Skin.String(theme_text)]]$LOCALIZE[33028]:[/COLOR][CR]$INFO[Window.Property(Today.Sunset)]</label>
-								<texturenofocus />
+								<texturenofocus/>
 								<include>SettingsPanelButtonsValues</include>
 							</control>
 						</control>
@@ -384,7 +384,7 @@
 						<content>
 							<item>
 								<label>$LOCALIZE[31909]</label>
-								<icon />
+								<icon/>
 								<onclick>noop</onclick>
 								<visible>!Weather.IsFetched</visible>
 							</item>
@@ -608,7 +608,7 @@
 						<content>
 							<item>
 								<label>$LOCALIZE[31909]</label>
-								<icon />
+								<icon/>
 								<onclick>noop</onclick>
 								<visible>String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
 							</item>
@@ -822,7 +822,7 @@
 						<content>
 							<item>
 								<label>$LOCALIZE[31909]</label>
-								<icon />
+								<icon/>
 								<onclick>noop</onclick>
 								<visible>String.IsEmpty(Window.Property(36Hour.IsFetched))</visible>
 							</item>
@@ -1043,7 +1043,7 @@
 						<content>
 							<item>
 								<label>$LOCALIZE[31909]</label>
-								<icon />
+								<icon/>
 								<onclick>noop</onclick>
 								<visible>String.IsEmpty(Window.Property(36Hour.IsFetched))</visible>
 							</item>
@@ -1241,7 +1241,7 @@
 						<content>
 							<item>
 								<label>$LOCALIZE[31909]</label>
-								<icon />
+								<icon/>
 								<onclick>noop</onclick>
 								<visible>String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
 							</item>
@@ -1894,7 +1894,13 @@
 		<control type="group">
 			<left>-440</left>
 			<include>SideBladeLeft</include>
-			<control type="grouplist" id="9050">
+			<control type="button" id="9050">
+				<include>HiddenObject</include>
+				<onfocus condition="Skin.HasSetting(Kiosk.Enabled)">SetFocus(50)</onfocus>
+				<onfocus condition="Skin.HasSetting(Kiosk.Enabled)">ClearProperty(MediaMenu,Home)</onfocus>
+				<onfocus condition="!Skin.HasSetting(Kiosk.Enabled)">SetFocus(9059)</onfocus>
+			</control>
+			<control type="grouplist" id="9059">
 				<top>100</top>
 				<width>400</width>
 				<height>1080</height>
@@ -1915,7 +1921,7 @@
 				</control>
 				<control type="spincontrolex" id="3">
 					<description>change location button</description>
-					<font />
+					<font/>
 					<include>ButtonCommonValues</include>
 				</control>
 				<control type="label" id="203">
@@ -1974,6 +1980,7 @@
 				</control>
 				<control type="button" id="616">
 					<description>Go to playercontrols</description>
+					<textwidth>400</textwidth>
 					<include>ButtonCommonValues</include>
 					<label>$LOCALIZE[31177]</label>
 					<onclick condition="Player.HasAudio">ClearProperty(MediaMenu,Home)</onclick>

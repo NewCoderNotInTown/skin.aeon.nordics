@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <includes>
 	<!--#############################################################################   VISTA DISCOG - ID 585   #############################################################################-->
 	<include name="ViewDiscog">
@@ -7,9 +6,10 @@
 			<left>8</left>
 			<control type="list" id="5822">
 				<content target="music" sortby="year" sortorder="ascending">$INFO[Container(585).ListItem.DBID,musicdb://artists/,/-1/*]</content>
-				<itemlayout />
-				<focusedlayout />
+				<itemlayout/>
+				<focusedlayout/>
 			</control>
+			<include condition="System.HasAddon(resource.images.recordlabels.white) + Skin.HasSetting(imagesRecord)">Record_labels_discog</include>
 			<control type="group">
 				<top>85</top>
 				<animation effect="slide" end="0,-300" time="150" tween="cubic" easing="inout" condition="Integer.IsGreater(Container(5850).Row,0) + Integer.IsGreater(Container(5850).NumItems,12)">Conditional</animation>
@@ -27,8 +27,9 @@
 						<width>520</width>
 						<height>1050</height>
 						<pagecontrol>58560</pagecontrol>
-						<scrolltime tween="cubic" easing="out">500</scrolltime>
+						<scrolltime tween="sine">500</scrolltime>
 						<orientation>vertical</orientation>
+						<preloaditems>2</preloaditems>
 						<focusposition>7</focusposition>
 						<onleft condition="[String.Contains(Container.SortMethod,$LOCALIZE[369]) | String.Contains(Container.SortMethod,$LOCALIZE[557])] + !ListItem.IsParentFolder">5919</onleft>
 						<onleft>58560</onleft>
@@ -73,23 +74,23 @@
 				</control>
 				<control type="list" id="6822">
 					<content target="music">$VAR[Source_Parent-1]</content>
-					<itemlayout />
-					<focusedlayout />
+					<itemlayout/>
+					<focusedlayout/>
 				</control>
 				<control type="list" id="6823">
 					<content target="music">$VAR[Source_Parent]</content>
-					<itemlayout />
-					<focusedlayout />
+					<itemlayout/>
+					<focusedlayout/>
 				</control>
 				<control type="list" id="6824">
 					<content target="music">$VAR[Source_Parent1]</content>
-					<itemlayout />
-					<focusedlayout />
+					<itemlayout/>
+					<focusedlayout/>
 				</control>
 				<control type="list" id="6825">
 					<content target="music">$VAR[Source_Parent2]</content>
-					<itemlayout />
-					<focusedlayout />
+					<itemlayout/>
+					<focusedlayout/>
 				</control>
 				<control type="group">
 					<top>-1043</top>
@@ -113,7 +114,8 @@
 						<top>796</top>
 						<left>30</left>
 						<orientation>vertical</orientation>
-						<focusedlayout width="300" height="300"></focusedlayout>
+						<focusedlayout width="300" height="300">
+						</focusedlayout>
 						<itemlayout width="300" height="300">
 							<control type="group">
 								<top>5</top>
@@ -134,7 +136,7 @@
 									<left>15</left>
 									<width>260</width>
 									<height>260</height>
-									<texture colordiffuse="ff7a7a7a" fallback="tajo/DefaultArtist.png" diffuse="tajo/mask_circle.png" background="true">$INFO[Control.GetLabel(5290)]</texture>
+									<texture colordiffuse="ff7a7a7a" fallback="tajo/wideback2.jpg" diffuse="tajo/mask_circle.png" background="true">$INFO[Control.GetLabel(5290)]</texture>
 									<aspectratio scalediffuse="false" align="center" aligny="center">scale</aspectratio>
 								</control>
 								<control type="image">
@@ -155,7 +157,7 @@
 									<left>15</left>
 									<width>260</width>
 									<height>260</height>
-									<texture colordiffuse="ff7a7a7a" fallback="tajo/defaultalbumcover.png" diffuse="tajo/mask_cover3.png" background="true">$INFO[ListItem.Thumb]</texture>
+									<texture colordiffuse="ff7a7a7a" fallback="tajo/wideback2.jpg" diffuse="tajo/mask_cover3.png" background="true">$INFO[ListItem.Thumb]</texture>
 									<aspectratio align="center">scale</aspectratio>
 								</control>
 								<control type="image">
@@ -231,7 +233,7 @@
 							</control>
 							<control type="group">
 								<animation type="Focus" reversible="false">
-									<effect type="zoom" delay="400" center="147,300" start="100" end="115" time="300" tween="cubic" easing="out" />
+									<effect type="zoom" delay="400" center="147,300" start="100" end="115" time="300" tween="cubic" easing="out"/>
 								</animation>
 								<control type="image">
 									<left>-3</left>
@@ -263,7 +265,7 @@
 										<left>15</left>
 										<width>260</width>
 										<height>260</height>
-										<texture fallback="tajo/defaultalbumcover.png" diffuse="tajo/mask_cover3.png" background="true">$VAR[Animated_585]</texture>
+										<texture fallback="tajo/wideback2.jpg" diffuse="tajo/mask_cover3.png" background="true">$VAR[Animated_585]</texture>
 										<aspectratio align="center">scale</aspectratio>
 									</control>
 									<control type="image">
@@ -272,7 +274,7 @@
 										<left>15</left>
 										<width>260</width>
 										<height>260</height>
-										<texture fallback="tajo/DefaultArtist.png" diffuse="tajo/mask_circle.png" background="true">$INFO[Control.GetLabel(5388)]</texture>
+										<texture fallback="tajo/wideback2.jpg" diffuse="tajo/mask_circle.png" background="true">$INFO[Control.GetLabel(5388)]</texture>
 										<aspectratio scalediffuse="false" align="center" aligny="center">scale</aspectratio>
 									</control>
 									<control type="image">
@@ -317,7 +319,7 @@
 									<left>15</left>
 									<width>260</width>
 									<height>260</height>
-									<texture colordiffuse="ff7a7a7a" fallback="tajo/defaultalbumcover.png" diffuse="tajo/mask_cover3.png" background="true">$VAR[Animated_585]</texture>
+									<texture colordiffuse="ff7a7a7a" fallback="tajo/wideback2.jpg" diffuse="tajo/mask_cover3.png" background="true">$VAR[Animated_585]</texture>
 									<aspectratio align="center">scale</aspectratio>
 								</control>
 								<control type="image">
@@ -336,7 +338,7 @@
 									<left>15</left>
 									<width>260</width>
 									<height>260</height>
-									<texture fallback="tajo/DefaultArtist.png" diffuse="tajo/mask_circle.png" background="true">$INFO[Control.GetLabel(5388)]</texture>
+									<texture fallback="tajo/wideback2.jpg" diffuse="tajo/mask_circle.png" background="true">$INFO[Control.GetLabel(5388)]</texture>
 									<aspectratio scalediffuse="false" align="center" aligny="center">scale</aspectratio>
 								</control>
 								<control type="image">
@@ -389,7 +391,8 @@
 						<top>447</top>
 						<left>30</left>
 						<orientation>vertical</orientation>
-						<focusedlayout width="300" height="300"></focusedlayout>
+						<focusedlayout width="300" height="300">
+						</focusedlayout>
 						<itemlayout width="300" height="300">
 							<control type="group">
 								<top>5</top>
@@ -410,7 +413,7 @@
 									<width>260</width>
 									<height>260</height>
 									<fadetime>400</fadetime>
-									<texture colordiffuse="ff7a7a7a" fallback="tajo/DefaultArtist.png" diffuse="tajo/mask_circle.png" background="true">$INFO[Control.GetLabel(5389)]</texture>
+									<texture colordiffuse="ff7a7a7a" fallback="tajo/wideback2.jpg" diffuse="tajo/mask_circle.png" background="true">$INFO[Control.GetLabel(5389)]</texture>
 									<aspectratio scalediffuse="false" align="center" aligny="center">scale</aspectratio>
 								</control>
 								<control type="image">
@@ -431,7 +434,7 @@
 									<width>260</width>
 									<height>260</height>
 									<fadetime>400</fadetime>
-									<texture colordiffuse="ff7a7a7a" fallback="tajo/defaultalbumcover.png" diffuse="tajo/mask_cover3.png" background="true">$INFO[ListItem.Thumb]</texture>
+									<texture colordiffuse="ff7a7a7a" fallback="tajo/wideback2.jpg" diffuse="tajo/mask_cover3.png" background="true">$INFO[ListItem.Thumb]</texture>
 									<aspectratio align="center">scale</aspectratio>
 								</control>
 								<control type="image">
@@ -488,7 +491,8 @@
 						<top>796</top>
 						<left>30</left>
 						<orientation>vertical</orientation>
-						<focusedlayout width="300" height="300"></focusedlayout>
+						<focusedlayout width="300" height="300">
+						</focusedlayout>
 						<itemlayout width="300" height="300">
 							<control type="group">
 								<top>5</top>
@@ -509,7 +513,7 @@
 									<left>15</left>
 									<width>260</width>
 									<height>260</height>
-									<texture colordiffuse="ff7a7a7a" fallback="tajo/DefaultArtist.png" diffuse="tajo/mask_circle.png" background="true">$INFO[Control.GetLabel(5390)]</texture>
+									<texture colordiffuse="ff7a7a7a" fallback="tajo/wideback2.jpg" diffuse="tajo/mask_circle.png" background="true">$INFO[Control.GetLabel(5390)]</texture>
 									<aspectratio scalediffuse="false" align="center" aligny="center">scale</aspectratio>
 								</control>
 								<control type="image">
@@ -530,7 +534,7 @@
 									<left>15</left>
 									<width>260</width>
 									<height>260</height>
-									<texture colordiffuse="ff7a7a7a" fallback="tajo/defaultalbumcover.png" diffuse="tajo/mask_cover3.png" background="true">$INFO[ListItem.Thumb]</texture>
+									<texture colordiffuse="ff7a7a7a" fallback="tajo/wideback2.jpg" diffuse="tajo/mask_cover3.png" background="true">$INFO[ListItem.Thumb]</texture>
 									<aspectratio align="center">scale</aspectratio>
 								</control>
 								<control type="image">
@@ -599,7 +603,7 @@
 				<width>500</width>
 				<font>font15d</font>
 				<align>center</align>
-				<texturefocus />
+				<texturefocus/>
 				<onup>5852</onup>
 				<onup>Control.Move(5852,-1)</onup>
 				<ondown>5852</ondown>
@@ -794,6 +798,21 @@
 						<textcolor>Skin.String(theme_text)</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<selectedcolor>Skin.String(theme_text)</selectedcolor>
+					</control>
+					<control type="textbox">
+						<visible>System.IdleTime(2) + !Integer.IsEqual(Container(6725).NumItems,0)</visible>
+						<visible>!String.IsEmpty(ListItem.DBID)</visible>
+						<animation effect="fade" start="0" end="100" delay="750" time="100" reversible="false">Visible</animation>
+						<left>1540</left>
+						<top>17</top>
+						<height>83</height>
+						<width>610</width>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>font15t</font>
+						<label>[B]$LOCALIZE[20389]: [/B][COLOR=FFFFFAF0][B]$INFO[Container(6725).NumItems][/B][/COLOR]</label>
+						<textcolor>Skin.String(theme_text)</textcolor>
+						<shadowcolor>black</shadowcolor>
 					</control>
 					<control type="list" id="5366">
 						<top>100</top>
@@ -1091,6 +1110,7 @@
 					<left>-20</left>
 					<top>-292</top>
 					<control type="image" id="4527">
+						<visible>System.IdleTime(3)</visible>
 						<width>120</width>
 						<height>45</height>
 						<left>370</left>
@@ -1110,7 +1130,7 @@
 						<font>font10t</font>
 						<textcolor>grey</textcolor>
 						<wrapmultiline>true</wrapmultiline>
-						<visible>String.IsEmpty(Control.GetLabel(4527))</visible>
+						<visible>!System.IdleTime(3) | String.IsEmpty(Container(6774).ListItemAbsolute(0).Icon)</visible>
 					</control>
 				</control>
 				<control type="group">

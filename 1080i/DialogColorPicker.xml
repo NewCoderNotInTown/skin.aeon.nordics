@@ -18,7 +18,7 @@
 				<height>80</height>
 				<align>right</align>
 				<font>font40_bold</font>
-				<label />
+				<label/>
 				<textcolor>grey</textcolor>
 				<shadowcolor>black</shadowcolor>
 			</control>
@@ -42,7 +42,6 @@
 				<onleft>9001</onleft>
 				<onright>9001</onright>
 				<ondown>9001</ondown>
-				<preloaditems>4</preloaditems>
 				<itemlayout height="47" width="90">
 					<control type="image">
 						<left>1</left>
@@ -86,7 +85,7 @@
 					<align>center</align>
 					<width>250</width>
 					<height>60</height>
-					<label />
+					<label/>
 					<onup>6</onup>
 					<ondown>Control.SetFocus(6)</ondown>
 				</control>

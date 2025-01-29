@@ -18,10 +18,10 @@
 			<height>600</height>
 			<usecontrolcoords>true</usecontrolcoords>
 			<animation type="WindowOpen" reversible="false">
-				<effect type="fade" end="100" time="150" />
+				<effect type="fade" end="100" time="150"/>
 			</animation>
 			<animation type="WindowClose" reversible="false">
-				<effect type="fade" start="100" end="0" time="100" delay="100" />
+				<effect type="fade" start="100" end="0" time="100" delay="100"/>
 			</animation>
 			<control type="label">
 				<width>1720</width>
@@ -52,7 +52,7 @@
 				<height>160</height>
 				<aspectratio align="left">keep</aspectratio>
 				<texture>$INFO[Player.Art(tvshow.clearlogo)]</texture>
-				<visible>!String.IsEmpty(Player.Art(tvshow.clearlogo))</visible>
+				<visible>!String.IsEmpty(Player.Art(tvshow.clearlogo)) + String.IsEmpty(Player.Art(clearlogo))</visible>
 			</control>
 			<control type="image">
 				<left>15</left>
@@ -76,7 +76,7 @@
 				<height>200</height>
 				<font>titlelist</font>
 				<label>$INFO[VideoPlayer.TvShowTitle]</label>
-				<visible>VideoPlayer.Content(episodes) + String.IsEmpty(Player.Art(tvshow.clearlogo))</visible>
+				<visible>VideoPlayer.Content(episodes) + String.IsEmpty(Player.Art(clearlogo)) + String.IsEmpty(Player.Art(tvshow.clearlogo))</visible>
 			</control>
 			<control type="label">
 				<width>760</width>
@@ -110,10 +110,10 @@
 		</control>
 		<control type="grouplist">
 			<animation type="WindowOpen" reversible="false">
-				<effect type="fade" end="100" time="150" />
+				<effect type="fade" end="100" time="150"/>
 			</animation>
 			<animation type="WindowClose" reversible="false">
-				<effect type="fade" start="100" end="0" time="100" delay="100" />
+				<effect type="fade" start="100" end="0" time="100" delay="100"/>
 			</animation>
 			<animation effect="zoom" end="70" time="0" condition="true">Conditional</animation>
 			<visible>VideoPlayer.Content(movies) | VideoPlayer.Content(episodes)</visible>
@@ -127,7 +127,7 @@
 				<width>260</width>
 				<control type="label">
 					<width>200</width>
-					<height>90</height>
+					<height>110</height>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>$INFO[VideoPlayer.Studio]</label>

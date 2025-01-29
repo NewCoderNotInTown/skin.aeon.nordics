@@ -16,7 +16,7 @@
 			<width>100%</width>
 			<height>64</height>
 			<texturesliderbar>seekslider2.png</texturesliderbar>
-			<textureslidernib />
+			<textureslidernib/>
 			<textureslidernibfocus>osd/osd_slider_nib.png</textureslidernibfocus>
 			<action>seek</action>
 			<visible>!VideoPlayer.Content(LiveTV)</visible>
@@ -79,6 +79,26 @@
 					<height>100</height>
 					<onclick>ActivateWindow(osdvideosettings)</onclick>
 				</control>
+				<control type="button" id="709">
+					<texturefocus>tajo/recua4.png</texturefocus>
+					<font>IconMediumMD</font>
+					<label></label>
+					<focusedcolor>Skin.String(theme_text)</focusedcolor>
+					<width>100</width>
+					<height>100</height>
+					<onclick>ActivateWindow(osdcmssettings)</onclick>
+					<visible>System.HasCMS</visible>
+				</control>
+				<control type="button" id="601">
+					<texturefocus>tajo/recua4.png</texturefocus>
+					<font>IconMediumMD</font>
+					<label></label>
+					<focusedcolor>Skin.String(theme_text)</focusedcolor>
+					<width>100</width>
+					<height>100</height>
+					<onclick condition="!Player.TempoEnabled">PlayerControl(Rewind)</onclick>
+					<onclick condition="Player.TempoEnabled">PlayerControl(tempodown)</onclick>
+				</control>
 				<control type="togglebutton" id="602">
 					<texturefocus>tajo/recua4.png</texturefocus>
 					<alttexturefocus>tajo/recua4.png</alttexturefocus>
@@ -99,18 +119,9 @@
 					<width>100</width>
 					<height>100</height>
 					<onclick>SetProperty(Stop_RA,True,home)</onclick>
+					<onclick condition="Window.IsActive(1105)">Dialog.Close(1105)</onclick>
 					<onclick>PlayerControl(Stop)</onclick>
 					<onclick>Dialog.Close(videoosd)</onclick>
-				</control>
-				<control type="button" id="601">
-					<texturefocus>tajo/recua4.png</texturefocus>
-					<font>IconMediumMD</font>
-					<label></label>
-					<focusedcolor>Skin.String(theme_text)</focusedcolor>
-					<width>100</width>
-					<height>100</height>
-					<onclick condition="!Player.TempoEnabled">PlayerControl(Rewind)</onclick>
-					<onclick condition="Player.TempoEnabled">PlayerControl(tempodown)</onclick>
 				</control>
 				<control type="button" id="604">
 					<texturefocus>tajo/recua4.png</texturefocus>
@@ -160,6 +171,17 @@
 					<height>100</height>
 					<onclick>PlayerControl(Next)</onclick>
 				</control>
+				<control type="button" id="626">
+					<visible>!String.IsEmpty(Window(home).Property(NextClip)) | Window.IsActive(1105)</visible>
+					<texturefocus>tajo/recua4.png</texturefocus>
+					<font>IconMediumMD</font>
+					<label></label>
+					<focusedcolor>Skin.String(theme_text)</focusedcolor>
+					<width>100</width>
+					<height>100</height>
+					<onclick>PlayerControl(Stop)</onclick>
+					<onclick>Dialog.Close(videoosd)</onclick>
+				</control>
 				<control type="button" id="703">
 					<texturefocus>tajo/recua4.png</texturefocus>
 					<font>IconMediumMD</font>
@@ -199,6 +221,17 @@
 					<onclick>Close</onclick>
 					<onclick>ActivateWindow(fullscreeninfo)</onclick>
 					<visible>VideoPlayer.Content(movies) | VideoPlayer.Content(episodes)</visible>
+				</control>
+				<control type="label">
+					<width>400</width>
+					<height>100</height>
+					<align>right</align>
+					<font>font15info</font>
+					<aligny>center</aligny>
+					<scroll>true</scroll>
+					<scrollsuffix> • </scrollsuffix>
+					<textcolor>Skin.String(theme_text)</textcolor>
+					<label>[B]$VAR[OSD_Info_Label][/B]</label>
 				</control>
 			</control>
 			<control type="grouplist" id="202">
@@ -248,6 +281,16 @@
 					<height>100</height>
 					<onclick>ChannelDown</onclick>
 				</control>
+				<control type="button" id="804">
+					<texturefocus>tajo/recua4.png</texturefocus>
+					<font>IconMediumMD</font>
+					<label></label>
+					<focusedcolor>Skin.String(theme_text)</focusedcolor>
+					<width>100</width>
+					<height>100</height>
+					<onclick>PlayerControl(Rewind)</onclick>
+					<visible>Player.SeekEnabled</visible>
+				</control>
 				<control type="togglebutton" id="812">
 					<texturefocus>tajo/recua4.png</texturefocus>
 					<alttexturefocus>tajo/recua4.png</alttexturefocus>
@@ -269,16 +312,6 @@
 					<width>100</width>
 					<height>100</height>
 					<onclick>PlayerControl(Stop)</onclick>
-				</control>
-				<control type="button" id="804">
-					<texturefocus>tajo/recua4.png</texturefocus>
-					<font>IconMediumMD</font>
-					<label></label>
-					<focusedcolor>Skin.String(theme_text)</focusedcolor>
-					<width>100</width>
-					<height>100</height>
-					<onclick>PlayerControl(Rewind)</onclick>
-					<visible>Player.SeekEnabled</visible>
 				</control>
 				<control type="button" id="806">
 					<texturefocus>tajo/recua4.png</texturefocus>
@@ -321,7 +354,26 @@
 					<width>100</width>
 					<height>100</height>
 					<onclick>Dialog.Close(VideoOSD)</onclick>
-					<onclick>ActivateWindow(PVROSDGuide)</onclick>
+					<onclick>ActivateWindow(pvrchannelguide)</onclick>
+				</control>
+				<control type="button" id="891">
+					<texturefocus>tajo/recua4.png</texturefocus>
+					<font>IconMediumMD</font>
+					<label></label>
+					<focusedcolor>Skin.String(theme_text)</focusedcolor>
+					<width>100</width>
+					<height>100</height>
+					<onclick>Dialog.Close(all, true)</onclick>
+					<onclick>Info</onclick>
+				</control>
+				<control type="button" id="892">
+					<texturefocus>tajo/recua4.png</texturefocus>
+					<font>IconMediumMD</font>
+					<label></label>
+					<focusedcolor>Skin.String(theme_text)</focusedcolor>
+					<width>100</width>
+					<height>100</height>
+					<onclick>ActivateWindow(osdsubtitlesettings)</onclick>
 				</control>
 				<control type="button" id="809">
 					<texturefocus>tajo/recua4.png</texturefocus>
@@ -351,6 +403,18 @@
 					<width>100</width>
 					<height>100</height>
 					<onclick>ActivateWindow(Teletext)</onclick>
+					<visible>VideoPlayer.HasTeletext</visible>
+				</control>
+				<control type="label">
+					<width>400</width>
+					<height>100</height>
+					<align>right</align>
+					<font>font15info</font>
+					<aligny>center</aligny>
+					<scroll>true</scroll>
+					<scrollsuffix> • </scrollsuffix>
+					<textcolor>Skin.String(theme_text)</textcolor>
+					<label>[B]$VAR[OSD_Info_Label][/B]</label>
 				</control>
 			</control>
 		</control>
