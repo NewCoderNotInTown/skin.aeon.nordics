@@ -100,12 +100,13 @@
     <setting id="GamesHomeItem.SubMenu" type="string"></setting>
     <setting id="TVShowHomeItem.Label" type="string"></setting>
     <setting id="WeatherHomeItem.Icon" type="string"></setting>
-    <setting id="Custom2HomeItem.BGType" type="string">1</setting>
+    <setting id="YoutubeHomeItem.BGType" type="string">1</setting>
     <setting id="Custom10HomeItem.Label" type="string"></setting>
     <setting id="custom19homeitem.disable" type="string"></setting>
-    <setting id="custom3homeitem.disable" type="string"></setting>
+    <setting id="RadioHomeItem.disable" type="string"></setting>
     <setting id="SubsMangler_ShowContextItem" type="string">true</setting>
-    <setting id="PicturesHomeItem.WidgetLabel" type="string"></setting>
+    <setting id="PicturesHomeItem.WidgetLabel" type="string">
+</setting>
     <setting id="SettingsHomeItem.WidgetType" type="string"></setting>
     <setting id="ProgramsHomeItem.Widget" type="string"></setting>
     <setting id="Custom7HomeItem.SubMenu" type="string"></setting>
@@ -115,19 +116,19 @@
     <setting id="Custom16HomeItem.WidgetType" type="string"></setting>
     <setting id="pictureshomeitem.disable" type="string"></setting>
     <setting id="Custom7HomeItem.MultiFanart" type="string"></setting>
-    <setting id="custom3homeitem.path" type="string">ActivateWindow(Programs,&quot;plugin://plugin.program.super.favourites/?label=Radio&amp;mode=400&amp;path=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CRadio&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CRadio-icon.jpg&amp;fanart=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CRadio-fanart.jpg&amp;content_type=&quot;,return)</setting>
+    <setting id="RadioHomeItem.path" type="string">ActivateWindow(Programs,&quot;plugin://plugin.program.super.favourites/?label=Radio&amp;mode=400&amp;path=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CRadio&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CRadio-icon.jpg&amp;fanart=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CRadio-fanart.jpg&amp;content_type=&quot;,return)</setting>
     <setting id="mark_type" type="string">5</setting>
     <setting id="Custom8HomeItem.BGType" type="string"></setting>
     <setting id="MusicVideos.Fallback" type="string"></setting>
     <setting id="starttrailer" type="string"></setting>
-    <setting id="Custom2HomeItem.Widget" type="string"></setting>
+    <setting id="YoutubeHomeItem.Widget" type="string"></setting>
     <setting id="Custom18HomeItem.MultiFanart" type="string"></setting>
     <setting id="Custom17HomeItem.SubMenu" type="string"></setting>
     <setting id="Custom13HomeItem.InfoLine" type="string"></setting>
-    <setting id="Custom3HomeItem.WidgetLabel" type="string"></setting>
+    <setting id="RadioHomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom5HomeItem.Label" type="string"></setting>
     <setting id="TVShowHomeItem.InfoLine" type="string">2</setting>
-    <setting id="custom2homeitem.path" type="string">ActivateWindow(Videos,&quot;plugin://plugin.program.super.favourites/?label=Youtube&amp;mode=400&amp;path=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CYoutube&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CMisc%5CYoutube.png&amp;fanart=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.program.super.favourites%5Cfanart.jpg&amp;content_type=&quot;,return)</setting>
+    <setting id="YoutubeHomeItem.path" type="string">ActivateWindow(Videos,&quot;plugin://plugin.program.super.favourites/?label=Youtube&amp;mode=400&amp;path=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CYoutube&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CMisc%5CYoutube.png&amp;fanart=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.program.super.favourites%5Cfanart.jpg&amp;content_type=&quot;,return)</setting>
     <setting id="MovieHomeItem.WidgetType" type="string"></setting>
     <setting id="GamesHomeItem.Label" type="string">GAMES</setting>
     <setting id="Custom6HomeItem.Widget" type="string"></setting>
@@ -137,7 +138,8 @@
     <setting id="MovieHomeItem.Label" type="string"></setting>
     <setting id="MusicHomeItem.Path" type="string">ActivateWindow(music,library://music/artists.xml/,return)</setting>
     <setting id="custom9homeitem.disable" type="string"></setting>
-    <setting id="musicgenreicons.path" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\VideoArtwork\VideoGenreIcons</setting>
+    <setting id="musicgenreicons.path" type="string">artwork/musicartwork/musicgenreicons/</setting>
+    <setting id="videogenreicons.path" type="string">artwork/videoartwork/videogenreiconsjpg</setting>
     <setting id="Custom19HomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom14HomeItem.Widget" type="string"></setting>
     <setting id="MovieHomeItem.InfoLine" type="string">1</setting>
@@ -147,7 +149,7 @@
     <setting id="Custom11HomeItem.Label" type="string"></setting>
     <setting id="MusicHomeItem.Label" type="string">MUSIC</setting>
     <setting id="PicturesHomeItem.InfoLine" type="string">5</setting>
-    <setting id="custom4homeitem.path" type="string"></setting>
+    <setting id="LibraryHomeItem.path" type="string"></setting>
     <setting id="Custom14HomeItem.MultiFanart" type="string"></setting>
     <setting id="ShutdownHomeItem.WidgetType" type="string"></setting>
     <setting id="Custom9HomeItem.Icon" type="string"></setting>
@@ -156,21 +158,20 @@
     <setting id="Custom8HomeItem.WidgetLabel" type="string"></setting>
     <setting id="custom11homeitem.path" type="string"></setting>
     <setting id="Custom12HomeItem.MultiFanart" type="string"></setting>
-    <setting id="Custom3HomeItem.BGType" type="string">2</setting>
-    <setting id="MusicVideoHomeItem.Icon" type="string"></setting>
-    <setting id="musicgenrefanartpath" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\musicartwork\musicgenrefanart\</setting>
+    <setting id="RadioHomeItem.BGType" type="string">2</setting>
+    <setting id="ConcertsHomeItem.Icon" type="string"></setting>
+    <setting id="musicgenrefanartpath" type="string">artwork/musicartwork/musicgenrefanart/</setting>
     <setting id="TVShowHomeItem.BGType" type="string">3</setting>
     <setting id="BlurRadius" type="string"></setting>
     <setting id="Custom5HomeItem.BGType" type="string"></setting>
-    <setting id="Custom2HomeItem.Label" type="string">YOUTUBE</setting>
+    <setting id="YoutubeHomeItem.Label" type="string">YOUTUBE</setting>
     <setting id="Custom12HomeItem.SubMenu" type="string"></setting>
-    <setting id="musicgenreicons.path" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\MusicArtwork\MusicGenreIcons</setting>
     <setting id="ProgramsHomeItem.BGType" type="string"></setting>
     <setting id="FavoritesHomeItem.WidgetType" type="string"></setting>
     <setting id="TVShowHomeItem.SubMenu" type="string"></setting>
     <setting id="custom9homeitem.path" type="string"></setting>
     <setting id="weathericons.ext" type="string"></setting>
-    <setting id="Custom3HomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Radio\</setting>
+    <setting id="RadioHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/radio/</setting>
     <setting id="WeatherHomeItem.BGType" type="string"></setting>
     <setting id="BlurContainer" type="string"></setting>
     <setting id="Custom13HomeItem.BGType" type="string"></setting>
@@ -178,27 +179,27 @@
     <setting id="ItemToEdit.InfoLine" type="string"></setting>
     <setting id="Custom11HomeItem.SubMenu" type="string"></setting>
     <setting id="GamesHomeItem.Icon" type="string"></setting>
-    <setting id="Custom4HomeItem.Widget" type="string"></setting>
+    <setting id="LibraryHomeItem.Widget" type="string"></setting>
     <setting id="skinhelper.colortheme.day.time" type="string"></setting>
     <setting id="Custom5HomeItem.Widget" type="string"></setting>
     <setting id="custom17homeitem.path" type="string"></setting>
     <setting id="FavoritesHomeItem.WidgetLabel" type="string"></setting>
-    <setting id="Custom3HomeItem.Label" type="string">RADIO</setting>
+    <setting id="RadioHomeItem.Label" type="string">RADIO</setting>
     <setting id="MusicHomeItem.Widget" type="string"></setting>
     <setting id="Custom5HomeItem.SubMenu" type="string"></setting>
     <setting id="Custom11HomeItem.BGType" type="string"></setting>
     <setting id="TVShowHomeItem.Icon" type="string"></setting>
     <setting id="Custom9HomeItem.Label" type="string"></setting>
     <setting id="programshomeitem.disable" type="string"></setting>
-    <setting id="Custom4HomeItem.SubMenu" type="string"></setting>
+    <setting id="LibraryHomeItem.SubMenu" type="string"></setting>
     <setting id="ShutdownHomeItem.Widget" type="string"></setting>
     <setting id="ShutdownHomeItem.InfoLine" type="string">8</setting>
     <setting id="MusicHomeItem.InfoLine" type="string">3</setting>
     <setting id="custom14homeitem.path" type="string"></setting>
     <setting id="TVShowHomeItem.Widget" type="string"></setting>
-    <setting id="Custom4HomeItem.BGType" type="string">2</setting>
+    <setting id="LibraryHomeItem.BGType" type="string">2</setting>
     <setting id="TVShowHomeItem.WidgetType" type="string"></setting>
-    <setting id="Custom4HomeItem.WidgetLabel" type="string"></setting>
+    <setting id="LibraryHomeItem.WidgetLabel" type="string"></setting>
     <setting id="custom5homeitem.path" type="string"></setting>
     <setting id="WeatherHomeItem.Label" type="string"></setting>
     <setting id="LiveTVHomeItem.WidgetLabel" type="string"></setting>
@@ -206,30 +207,30 @@
     <setting id="weatherfanart.path" type="string"></setting>
     <setting id="Custom16HomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom15HomeItem.Label" type="string"></setting>
-    <setting id="Custom3HomeItem.InfoLine" type="string">5</setting>
+    <setting id="RadioHomeItem.InfoLine" type="string">5</setting>
     <setting id="Custom5HomeItem.WidgetLabel" type="string"></setting>
     <setting id="MovieHomeItem.MultiFanart" type="string">1</setting>
     <setting id="custom13homeitem.disable" type="string"></setting>
     <setting id="WeatherHomeItem.Path" type="string"></setting>
     <setting id="Custom10HomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom15HomeItem.SubMenu" type="string"></setting>
-    <setting id="Custom2HomeItem.InfoLine" type="string">5</setting>
+    <setting id="YoutubeHomeItem.InfoLine" type="string">5</setting>
     <setting id="WikiSearch" type="string"></setting>
     <setting id="Custom6HomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom7HomeItem.InfoLine" type="string"></setting>
     <setting id="SettingsHomeItem.SubMenu" type="string"></setting>
     <setting id="Custom13HomeItem.MultiFanart" type="string"></setting>
     <setting id="custom17homeitem.disable" type="string"></setting>
-    <setting id="Custom1HomeItem.InfoLine" type="string">5</setting>
+    <setting id="Podcastshomeitem.InfoLine" type="string">5</setting>
     <setting id="MusicHomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom16HomeItem.Widget" type="string"></setting>
     <setting id="Custom8HomeItem.Label" type="string"></setting>
     <setting id="skininfo.autoclosevideoosd" type="string"></setting>
-    <setting id="MusicVideoHomeItem.InfoLine" type="string">7</setting>
-    <setting id="Custom1HomeItem.Icon" type="string"></setting>
-    <setting id="videogenrefanartpath" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\videoartwork\videogenrefanart\</setting>
+    <setting id="ConcertsHomeItem.InfoLine" type="string">7</setting>
+    <setting id="Podcastshomeitem.Icon" type="string"></setting>
+    <setting id="videogenrefanart.path" type="string">artwork/videoartwork/videogenrefanart/</setting>
     <setting id="MusicHomeItem.MultiFanart" type="string">4</setting>
-    <setting id="MusicVideoHomeItem.Label" type="string">CONCERTS</setting>
+    <setting id="ConcertsHomeItem.Label" type="string">CONCERTS</setting>
     <setting id="SettingsHomeItem.BGType" type="string"></setting>
     <setting id="Custom7HomeItem.BGType" type="string"></setting>
     <setting id="Custom13HomeItem.WidgetLabel" type="string"></setting>
@@ -240,30 +241,30 @@
     <setting id="Movies.Fallback" type="string"></setting>
     <setting id="Custom8HomeItem.WidgetType" type="string"></setting>
     <setting id="Custom19HomeItem.Widget" type="string"></setting>
-    <setting id="GamesHomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Games</setting>
-    <setting id="Custom3HomeItem.Widget" type="string"></setting>
+    <setting id="GamesHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/games/</setting>
+    <setting id="RadioHomeItem.Widget" type="string"></setting>
     <setting id="PicturesHomeItem.Label" type="string"></setting>
     <setting id="weathericons.name" type="string">Weather Icons - HD Animated</setting>
     <setting id="Custom15HomeItem.WidgetType" type="string"></setting>
     <setting id="GamesHomeItem.WidgetType" type="string"></setting>
-    <setting id="SettingsHomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Settings</setting>
-    <setting id="MusicVideoHomeItem.Path" type="string">ActivateWindow(Videos,&quot;library://video/musicvideos/artists.xml/&quot;,return)</setting>
+    <setting id="SettingsHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/settings/</setting>
+    <setting id="ConcertsHomeItem.Path" type="string">ActivateWindow(Videos,&quot;library://video/musicvideos/artists.xml/&quot;,return)</setting>
     <setting id="Custom10HomeItem.MultiFanart" type="string"></setting>
     <setting id="Custom16HomeItem.SubMenu" type="string"></setting>
     <setting id="Custom14HomeItem.InfoLine" type="string"></setting>
     <setting id="Custom9HomeItem.Widget" type="string"></setting>
-    <setting id="Custom3HomeItem.Icon" type="string"></setting>
+    <setting id="RadioHomeItem.Icon" type="string"></setting>
     <setting id="Custom9HomeItem.MultiFanart" type="string"></setting>
     <setting id="Custom14HomeItem.WidgetType" type="string"></setting>
     <setting id="moviehomeitem.disable" type="string"></setting>
     <setting id="Custom18HomeItem.WidgetLabel" type="string"></setting>
     <setting id="skinhelper.colortheme.night.time" type="string"></setting>
     <setting id="Games.Fallback" type="string"></setting>
-    <setting id="ProgramsHomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Apps</setting>
+    <setting id="ProgramsHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/apps/</setting>
     <setting id="Custom14HomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom17HomeItem.Label" type="string"></setting>
     <setting id="Custom18HomeItem.WidgetType" type="string"></setting>
-    <setting id="custom1homeitem.path" type="string">ActivateWindow(Music,&quot;plugin://plugin.program.super.favourites/?label=Podcasts&amp;mode=400&amp;path=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CPodcasts&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CMisc%5CPodcasts.jpg&amp;fanart=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CPodcasts-fanart.jpg&amp;content_type=&quot;,return)</setting>
+    <setting id="Podcastshomeitem.path" type="string">ActivateWindow(Music,&quot;plugin://plugin.program.super.favourites/?label=Podcasts&amp;mode=400&amp;path=C%3A%5CUsers%<username>%5CAppData%5CRoaming%5CKodi%5Cuserdata%5Csuper_favourites%5CSuper+Favourites%5CPodcasts&amp;image=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CMisc%5CPodcasts.jpg&amp;fanart=special%3A%2F%2Fhome%2Fartwork%5CSkinBackgrounds%5CPlaylists%5CPodcasts-fanart.jpg&amp;content_type=&quot;,return)</setting>
     <setting id="Music.Fallback" type="string"></setting>
     <setting id="Custom9HomeItem.InfoLine" type="string"></setting>
     <setting id="Custom17HomeItem.MultiFanart" type="string"></setting>
@@ -278,7 +279,7 @@
     <setting id="SettingsHomeItem.Icon" type="string"></setting>
     <setting id="FavoritesHomeItem.SubMenu" type="string"></setting>
     <setting id="Custom13HomeItem.WidgetType" type="string"></setting>
-    <setting id="custom4homeitem.disable" type="string">True</setting>
+    <setting id="LibraryHomeItem.disable" type="string">True</setting>
     <setting id="custom15homeitem.disable" type="string"></setting>
     <setting id="WeatherHomeItem.InfoLine" type="string">5</setting>
     <setting id="flat_back" type="string">FFFC2847</setting>
@@ -286,35 +287,35 @@
     <setting id="SettingsHomeItem.Label" type="string"></setting>
     <setting id="Custom7HomeItem.Label" type="string"></setting>
     <setting id="Wikipedia.Format.Link" type="string">[COLOR FFFC2847]{}[/COLOR]</setting>
-    <setting id="Custom4HomeItem.Icon" type="string"></setting>
+    <setting id="LibraryHomeItem.Icon" type="string"></setting>
     <setting id="weatherhomeitem.disable" type="string"></setting>
     <setting id="Custom14HomeItem.Icon" type="string"></setting>
     <setting id="ShutdownHomeItem.Icon" type="string"></setting>
     <setting id="Custom17HomeItem.InfoLine" type="string"></setting>
     <setting id="Custom5HomeItem.MultiFanart" type="string"></setting>
-    <setting id="Custom1HomeItem.WidgetLabel" type="string"></setting>
+    <setting id="Podcastshomeitem.WidgetLabel" type="string"></setting>
     <setting id="Custom12HomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom16HomeItem.MultiFanart" type="string"></setting>
-    <setting id="Custom1HomeItem.BGType" type="string">2</setting>
+    <setting id="Podcastshomeitem.BGType" type="string">2</setting>
     <setting id="WeatherHomeItem.Widget" type="string">11</setting>
     <setting id="VideosHomeItem.BGType" type="string"></setting>
     <setting id="Custom19HomeItem.SubMenu" type="string"></setting>
     <setting id="MovieHomeItem.SubMenu" type="string"></setting>
-    <setting id="Custom2HomeItem.WidgetType" type="string"></setting>
+    <setting id="YoutubeHomeItem.WidgetType" type="string"></setting>
     <setting id="TVShowHomeItem.WidgetLabel" type="string"></setting>
     <setting id="MovieHomeItem.Path" type="string"></setting>
     <setting id="Custom_BG" type="string"></setting>
-    <setting id="Custom4HomeItem.Label" type="string"></setting>
+    <setting id="LibraryHomeItem.Label" type="string"></setting>
     <setting id="Custom10HomeItem.Widget" type="string"></setting>
     <setting id="skinhelper.autoclosevideoosd" type="string"></setting>
     <setting id="custom6homeitem.path" type="string"></setting>
-    <setting id="PicturesHomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Pictures\</setting>
+    <setting id="PicturesHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/pictures/</setting>
     <setting id="TVShows.Fallback" type="string"></setting>
-    <setting id="FavoritesHomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Favourites</setting>
+    <setting id="FavoritesHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/favourites/</setting>
     <setting id="Custom7HomeItem.Widget" type="string"></setting>
     <setting id="custom12homeitem.disable" type="string"></setting>
     <setting id="MovieHomeItem.Icon" type="string"></setting>
-    <setting id="Custom4HomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Library\</setting>
+    <setting id="LibraryHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/library/</setting>
     <setting id="custom5homeitem.disable" type="string"></setting>
     <setting id="Wikipedia.Format.Emphasis" type="string">[B][I]{} [/B][/I]</setting>
     <setting id="Custom10HomeItem.BGType" type="string"></setting>
@@ -335,7 +336,7 @@
     <setting id="custom18homeitem.path" type="string"></setting>
     <setting id="MusicHomeItem.BGType" type="string">3</setting>
     <setting id="Custom11HomeItem.MultiFanart" type="string"></setting>
-    <setting id="WeatherHomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Weather</setting>
+    <setting id="WeatherHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/weather/</setting>
     <setting id="Custom5HomeItem.InfoLine" type="string"></setting>
     <setting id="Custom7HomeItem.WidgetLabel" type="string"></setting>
     <setting id="FavoritesHomeItem.Widget" type="string"></setting>
@@ -353,17 +354,17 @@
     <setting id="Custom11HomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom17HomeItem.Widget" type="string"></setting>
     <setting id="Custom12HomeItem.Label" type="string"></setting>
-    <setting id="Custom2HomeItem.SubMenu" type="string"></setting>
+    <setting id="YoutubeHomeItem.SubMenu" type="string"></setting>
     <setting id="Custom14HomeItem.BGType" type="string"></setting>
     <setting id="custom15homeitem.path" type="string"></setting>
     <setting id="melodyplaylist" type="string">special://skin/tajo_melodies</setting>
-    <setting id="WeatherHomeItem.WidgetLabel" type="string">Weather</setting>
+    <setting id="WeatherHomeItem.WidgetLabel" type="string"></setting>
     <setting id="ProgramsHomeItem.WidgetLabel" type="string"></setting>
     <setting id="FavoritesHomeItem.InfoLine" type="string">5</setting>
     <setting id="mark_color" type="string">FF3CB371</setting>
     <setting id="SkinHelper.StudioLogos.Path" type="string"></setting>
     <setting id="Custom12HomeItem.WidgetType" type="string"></setting>
-    <setting id="custom1homeitem.disable" type="string"></setting>
+    <setting id="Podcastshomeitem.disable" type="string"></setting>
     <setting id="LiveTVHomeItem.WidgetType" type="string"></setting>
     <setting id="Custom13HomeItem.Icon" type="string"></setting>
     <setting id="Custom11HomeItem.Widget" type="string"></setting>
@@ -372,11 +373,11 @@
     <setting id="BlurSaturation" type="string"></setting>
     <setting id="Custom8HomeItem.Widget" type="string"></setting>
     <setting id="Custom16HomeItem.InfoLine" type="string"></setting>
-    <setting id="MusicVideoHomeItem.WidgetType" type="string"></setting>
-    <setting id="Custom1HomeItem.Label" type="string">PODCASTS</setting>
+    <setting id="ConcertsHomeItem.WidgetType" type="string"></setting>
+    <setting id="Podcastshomeitem.Label" type="string">PODCASTS</setting>
     <setting id="ShutdownHomeItem.Path" type="string"></setting>
-    <setting id="Custom1HomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Podcasts\</setting>
-    <setting id="MusicVideoHomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Concerts</setting>
+    <setting id="Podcastshomeitem.MultiFanart" type="string">artwork/skinbackgrounds/podcasts/</setting>
+    <setting id="ConcertsHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/concerts/</setting>
     <setting id="Custom16HomeItem.Icon" type="string"></setting>
     <setting id="videoshomeitem.disable" type="string"></setting>
     <setting id="LiveTVHomeItem.SubMenu" type="string"></setting>
@@ -384,14 +385,14 @@
     <setting id="Custom9HomeItem.SubMenu" type="string"></setting>
     <setting id="custom19homeitem.path" type="string"></setting>
     <setting id="FavoritesHomeItem.Label" type="string">FAVOURITES</setting>
-    <setting id="Custom1HomeItem.SubMenu" type="string"></setting>
+    <setting id="Podcastshomeitem.SubMenu" type="string"></setting>
     <setting id="choice_color" type="string">3</setting>
     <setting id="custom7homeitem.disable" type="string"></setting>
-    <setting id="VideosHomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Videos</setting>
+    <setting id="VideosHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/videos/</setting>
     <setting id="LiveTVHomeItem.Icon" type="string"></setting>
     <setting id="LiveTVHomeItem.Widget" type="string"></setting>
     <setting id="Custom7HomeItem.Icon" type="string"></setting>
-    <setting id="Custom2HomeItem.Icon" type="string"></setting>
+    <setting id="YoutubeHomeItem.Icon" type="string"></setting>
     <setting id="ProgramsHomeItem.SubMenu" type="string"></setting>
     <setting id="Custom10HomeItem.WidgetType" type="string"></setting>
     <setting id="Custom12HomeItem.BGType" type="string"></setting>
@@ -406,7 +407,7 @@
     <setting id="Custom11HomeItem.InfoLine" type="string"></setting>
     <setting id="custom8homeitem.disable" type="string"></setting>
     <setting id="overlay.toggle" type="string"></setting>
-    <setting id="musicvideohomeitem.disable" type="string"></setting>
+    <setting id="ConcertsHomeItem.disable" type="string"></setting>
     <setting id="Custom9HomeItem.WidgetLabel" type="string"></setting>
     <setting id="custom10homeitem.disable" type="string"></setting>
     <setting id="gameshomeitem.disable" type="string"></setting>
@@ -431,31 +432,31 @@
     <setting id="tvshowhomeitem.disable" type="string"></setting>
     <setting id="SettingsHomeItem.InfoLine" type="string">8</setting>
     <setting id="Custom8HomeItem.MultiFanart" type="string"></setting>
-    <setting id="custom2homeitem.disable" type="string"></setting>
+    <setting id="YoutubeHomeItem.disable" type="string"></setting>
     <setting id="Custom8HomeItem.SubMenu" type="string"></setting>
     <setting id="FavoritesHomeItem.BGType" type="string"></setting>
     <setting id="LiveTVHomeItem.Path" type="string"></setting>
-    <setting id="Custom2HomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Playlists\Youtube-fanrt1.jpg</setting>
+    <setting id="YoutubeHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/playlists/Youtube-fanart1.jpg</setting>
     <setting id="VideosHomeItem.WidgetType" type="string"></setting>
-    <setting id="MusicVideoHomeItem.SubMenu" type="string"></setting>
+    <setting id="ConcertsHomeItem.SubMenu" type="string"></setting>
     <setting id="ProgramsHomeItem.Label" type="string"></setting>
-    <setting id="ShutdownHomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Power</setting>
+    <setting id="ShutdownHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/power/</setting>
     <setting id="MovieHomeItem.WidgetLabel" type="string"></setting>
     <setting id="ShutdownHomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom15HomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom12HomeItem.InfoLine" type="string"></setting>
     <setting id="MovieHomeItem.Widget" type="string"></setting>
-    <setting id="Custom1HomeItem.Widget" type="string"></setting>
-    <setting id="Custom2HomeItem.WidgetLabel" type="string"></setting>
+    <setting id="Podcastshomeitem.Widget" type="string"></setting>
+    <setting id="YoutubeHomeItem.WidgetLabel" type="string"></setting>
     <setting id="Custom12HomeItem.Widget" type="string"></setting>
     <setting id="PicturesHomeItem.BGType" type="string">2</setting>
     <setting id="WeatherHomeItem.WidgetType" type="string">3</setting>
-    <setting id="Custom3HomeItem.WidgetType" type="string"></setting>
+    <setting id="RadioHomeItem.WidgetType" type="string"></setting>
     <setting id="TVShowHomeItem.Path" type="string"></setting>
     <setting id="FavoritesHomeItem.Icon" type="string"></setting>
     <setting id="weathericons.path" type="string">resource://resource.images.weathericons.hd.animated/</setting>
     <setting id="custom13homeitem.path" type="string"></setting>
-    <setting id="Custom4HomeItem.WidgetType" type="string"></setting>
+    <setting id="LibraryHomeItem.WidgetType" type="string"></setting>
     <setting id="Custom15HomeItem.Icon" type="string"></setting>
     <setting id="ItemToEdit.Widget" type="string"></setting>
     <setting id="ShutdownHomeItem.SubMenu" type="string"></setting>
@@ -465,11 +466,11 @@
     <setting id="Custom17HomeItem.WidgetLabel" type="string"></setting>
     <setting id="MusicHomeItem.Icon" type="string"></setting>
     <setting id="Custom6HomeItem.Label" type="string"></setting>
-    <setting id="Custom1HomeItem.WidgetType" type="string"></setting>
+    <setting id="Podcastshomeitem.WidgetType" type="string"></setting>
     <setting id="favoriteshomeitem.disable" type="string"></setting>
     <setting id="livetvhomeitem.disable" type="string">True</setting>
     <setting id="PicturesHomeItem.Widget" type="string"></setting>
-    <setting id="LiveTVHomeItem.MultiFanart" type="string">C:\Users\<username>\AppData\Roaming\Kodi\artwork\SkinBackgrounds\Live_TV</setting>
+    <setting id="LiveTVHomeItem.MultiFanart" type="string">artwork/skinbackgrounds/livetv/</setting>
     <setting id="Custom13HomeItem.Label" type="string"></setting>
     <setting id="Custom11HomeItem.Icon" type="string"></setting>
     <setting id="Custom7HomeItem.WidgetType" type="string"></setting>
@@ -486,10 +487,10 @@
     <setting id="ItemToEdit.WidgetLabel" type="string"></setting>
     <setting id="TMDbHelper.Blur.Radius" type="string"></setting>
     <setting id="custom16homeitem.path" type="string"></setting>
-    <setting id="Custom3HomeItem.SubMenu" type="string"></setting>
+    <setting id="RadioHomeItem.SubMenu" type="string"></setting>
     <setting id="GamesHomeItem.InfoLine" type="string">5</setting>
     <setting id="Custom14HomeItem.SubMenu" type="string"></setting>
-    <setting id="MusicVideoHomeItem.WidgetLabel" type="string"></setting>
+    <setting id="ConcertsHomeItem.WidgetLabel" type="string"></setting>
     <setting id="ProgramsHomeItem.Icon" type="string"></setting>
     <setting id="SkinHelper.ShowInfoAtPlaybackStart" type="string"></setting>
     <setting id="skinshortcuts-sharedmenu" type="string">true</setting>
@@ -498,12 +499,12 @@
     <setting id="Custom5HomeItem.Icon" type="string"></setting>
     <setting id="custom12homeitem.path" type="string"></setting>
     <setting id="VideosHomeItem.Widget" type="string"></setting>
-    <setting id="MusicVideoHomeItem.Widget" type="string"></setting>
+    <setting id="ConcertsHomeItem.Widget" type="string"></setting>
     <setting id="custom16homeitem.disable" type="string"></setting>
-    <setting id="Custom4HomeItem.InfoLine" type="string">5</setting>
+    <setting id="LibraryHomeItem.InfoLine" type="string">5</setting>
     <setting id="PicturesHomeItem.WidgetType" type="string"></setting>
     <setting id="Custom6HomeItem.WidgetType" type="string"></setting>
     <setting id="ServiceInterval" type="string"></setting>
     <setting id="skinhelper.autoclosemusicosd" type="string"></setting>
-    <setting id="MusicVideoHomeItem.BGType" type="string"></setting>
+    <setting id="ConcertsHomeItem.BGType" type="string"></setting>
 </settings>
